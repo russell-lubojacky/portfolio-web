@@ -1,0 +1,29 @@
+import { Button } from "@/components/ui/Button";
+import { Container } from "@/components/ui/Container";
+
+export function Hero() {
+  return (
+    <section className="border-b border-border py-24 sm:py-32">
+      <Container>
+        <p className="font-mono text-sm tracking-widest text-primary uppercase">
+          Technical Architecture Manager · Houston, TX
+        </p>
+        <h1 className="mt-4 max-w-3xl text-4xl font-semibold tracking-tight text-foreground sm:text-6xl">
+          25 years architecting systems that shipped. Now building with AI, not just about it.
+        </h1>
+        <p className="mt-6 max-w-2xl text-lg text-muted">
+          I design and deliver cloud-native, API, and enterprise integration platforms —
+          from Fortune 500 hospitality and banking systems to a live AWS/Kubernetes
+          modernization for a federal weather and environmental agency, built with Claude
+          Code as part of the delivery team, not just the tooling.
+        </p>
+        <div className="mt-10 flex flex-wrap gap-4">
+          <Button href="/fit">See how I fit your role</Button>
+          <Button href="/projects" variant="secondary">
+            Browse case studies
+          </Button>
+        </div>
+      </Container>
+    </section>
+  );
+}

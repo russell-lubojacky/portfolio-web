@@ -1,0 +1,1007 @@
+[
+  {
+    "slug": "2025-us-federal-government-agency",
+    "year": 2025,
+    "dates": "October, 2025 - Present",
+    "role": "Application Architect",
+    "industry": "Government / Federal Public Sector — Scientific / Environmental (Weather & Atmospheric Data)",
+    "clientDescriptor": "US federal government agency",
+    "businessProblem": "the US federal government agency needed to modernize a set of legacy on-premises IDP (\"Dissemination Platform\" — the expansion of the leading \"I\" is unconfirmed) applications to AWS. The legacy applications are 20+ years old and were poorly documented; the majority are written in Python, with some in Java/C++. The first phase was an architecture assessment of exactly 10 in-scope legacy applications, required within a compressed 3-month timeframe.",
+    "responsibilities": "- Brought in as Application Architect to modernize the US federal government agency IDP legacy on-prem applications to AWS\n- Led Phase 1: architecture assessment of 10 in-scope legacy applications within a 3-month window\n- To accelerate delivery, focused on leveraging Claude Code with detailed prompts to analyze legacy code and documentation\n- Applied hands-on Python expertise (the majority of the legacy applications are Python) plus Claude Code to reverse-engineer poorly-documented, 20+-year-old legacy code and determine what each application actually did, in order to define the correct modernization approach\n- Established a reusable analysis framework (for using Claude Code to assess legacy systems) that was adopted by a 3-4 person team during Phase 1\n- Delivered the Phase 1 architecture assessment on time, roughly 50% faster than a typical/expected manual assessment timeline for comparable legacy scope\n- Defined the future-state architecture and technology stack for the AWS migration, covering all 10 assessed applications\n- Partnered directly with the US federal government agency product owners and architects (client-side; exact titles not on record) to define the modernization approach and sequencing\n- Leads a 4-5 person team (Phase 2, implementation) leveraging Claude Code to modernize the assessed applications; of the 10, 2 legacy Java/C++ applications entered implementation — one is under active, ongoing implementation with Claude Code's assistance, the other reached a development AWS environment before the client redirected the team's focus to the other pilot after roughly two weeks of implementation work; the remaining 8 applications have been assessed and architected but have not yet entered implementation\n- Working through GitLab CI/CD pipelines and Terraform infrastructure-as-code scripts for the applications in implementation\n- Presents weekly demos to executive stakeholders on the client side\n- Scope evolved continuously as the team discovered integration requirements with external systems, requiring ongoing re-architecture rather than a fixed, one-time design — including the client's decision to redirect implementation focus between the two pilot applications\n- Engagement is ongoing — Phase 1 (assessment/architecture) is complete for all 10 applications; Phase 2 (implementation) is in progress on 2 of the 10, with the remaining 8 assessed and architected but awaiting implementation as of this writing",
+    "technicalArchitecture": "- Legacy state: on-premises backend data processing systems, 20+ years old, poorly documented, majority written in Python (some Java/C++), that integrate with Unidata LDM (Local Data Manager), processing incoming weather/sensor data and delivering it to downstream systems. Named legacy systems in scope include MRMS (Multi-Radar Multi-Sensor) and NGITWS (Next Gen IT Web Services).\n- Target/future state: AWS-based architecture using SNS (event/message notification), S3 (storage), EventBridge (event routing), EC2, and Kubernetes (container orchestration) — an event-driven, message-based architecture replacing the legacy on-prem data processing/dissemination model. Scope evolved continuously as external-system integration requirements were discovered, rather than being fixed upfront.\n- Delivery tooling: GitLab CI/CD and Terraform for infrastructure as code\n- AI-assisted delivery framework: Claude Code used in two distinct modes —\n  1. **Analysis mode** (Phase 1, complete for all 10 apps): detailed prompting, combined with Russell's own Python expertise, to reverse-engineer poorly-documented legacy code (mostly Python) and determine what each application did, accelerating the 10-app architecture assessment within the 3-month window to roughly 50% faster than a typical manual assessment\n  2. **Implementation mode** (Phase 2, in progress on 2 of 10): Claude Code used by a 4-5 person team to implement the modernization of 2 legacy Java/C++ applications so far — 1 actively ongoing, 1 paused after ~2 weeks when the client redirected focus to the other pilot; the remaining 8 assessed applications are architected but not yet in implementation",
+    "technologiesUsed": [
+      "AWS: SNS, S3, EventBridge, EC2",
+      "Kubernetes",
+      "Python (primary legacy application language; used for legacy-code analysis; the 2 pilot applications now in implementation are legacy Java/C++ being modernized with Claude Code's help)",
+      "Unidata LDM (legacy data ingestion/distribution system being integrated with/migrated away from)",
+      "Terraform",
+      "GitLab CI/CD",
+      "Claude Code (used for legacy-code analysis/reverse-engineering in Phase 1, and for implementation on the 2 pilot applications in Phase 2)"
+    ],
+    "leadership": "Two distinct team-leadership motions within one engagement: established and led a 3-4 person team through a Claude-Code-assisted architecture assessment framework (Phase 1, complete for all 10 applications); currently leads a 4-5 person team (Phase 2) implementing the modernization of 2 of those 10 applications with Claude Code — 1 actively ongoing, 1 paused after ~2 weeks of implementation when the client redirected focus to the other pilot. The remaining 8 assessed applications are architected but not yet in implementation. Partnered directly with the US federal government agency product owners and architects on the client side to define the modernization approach and sequencing, including the client's decision to redirect implementation priority between the two pilots. Presents weekly demos directly to executive stakeholders on the client side.",
+    "challenges": "Assessing 10 legacy backend data-processing applications — 20+ years old, poorly documented, integrated with an external system (Unidata LDM) and each other via downstream data delivery — within a compressed 3-month timeframe; reverse-engineering undocumented legacy code (mostly Python) using Claude Code to determine actual application behavior before a modernization approach could even be defined; establishing and rolling out a new AI-assisted analysis/build framework across a team rather than relying on it individually; scope continuously evolving as external-system integration requirements were discovered rather than being fixed at the outset, including a client-driven pivot in which implementation pilot to prioritize",
+    "results": "Delivered the Phase 1 architecture assessment (10 legacy applications) on time, roughly 50% faster than a typical/expected manual assessment timeline for comparable scope, using a Claude-Code-based analysis framework combined with hands-on Python code review. Defined the future-state AWS architecture and technology stack for all 10 applications. In Phase 2, 2 of the 10 legacy Java/C++ applications have entered implementation with Claude Code's help — 1 is actively ongoing, 1 reached a development AWS environment before the client redirected focus to the other pilot after roughly two weeks of implementation work. The remaining 8 applications have been assessed and architected but have not yet entered implementation. Engagement continues (end date \"Present\"); revisit as Phase 2 implementation progresses.",
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Led a Phase 1 architecture assessment of 10 legacy the US federal government agency (the US federal government agency) data-processing applications — 20+ years old and poorly documented, majority in Python — within a compressed 3-month timeframe, reverse-engineering legacy code with Claude Code and hands-on Python expertise to establish a Claude-Code-based analysis framework adopted by a 3-4 person team, completing the assessment roughly 50% faster than a typical manual approach",
+      "Defined the future-state AWS architecture (SNS, S3, EventBridge, EC2, Kubernetes) and technology stack for modernizing all 10 legacy on-prem weather data processing systems (including MRMS and NGITWS) integrated with Unidata LDM, partnering directly with the US federal government agency product owners and architects as integration requirements with external systems continued to evolve",
+      "Leading a 4-5 person team implementing the modernization of 2 legacy Java/C++ the US federal government agency applications with Claude Code, onto AWS/Kubernetes and Terraform-provisioned, delivered via GitLab CI/CD; the remaining 8 assessed applications are architected and awaiting implementation; delivers weekly demos to executive stakeholders throughout"
+    ]
+  },
+  {
+    "slug": "2023-us-federal-government-agency",
+    "year": 2023,
+    "dates": "May, 2023 - September, 2025",
+    "role": "Application Architect",
+    "industry": "Government / Federal Public Sector — Natural Resources / Land Management",
+    "clientDescriptor": "US federal government agency",
+    "businessProblem": "the US federal government agency maintained land unit data — with a primary focus on recreation sites — in a legacy Oracle database integrated with ArcGIS Enterprise. The objective was to migrate recreation site data off Oracle onto PostgreSQL with PostGIS, redesign the schema for better performance, and modernize how recreation site data was surfaced and managed, including ultimately replacing a ServiceNow-based map display with a custom frontend application.",
+    "responsibilities": "- Worked extensively with a legacy Oracle database (integrated with ArcGIS Enterprise) storing the US federal government agency land unit data, with primary focus on recreation sites\n- Led migration of recreation site data from Oracle to PostgreSQL with the PostGIS extension\n- Redesigned the database schema to improve performance\n- Worked closely with the client to deliver demos and obtain approvals throughout the engagement\n- Managed a 2-3 person team of database developers\n- Integrated the new PostgreSQL/PostGIS database with ArcGIS Server\n- Spent significant time on ArcGIS Enterprise configuration and publishing map features\n- Integrated ArcGIS with ServiceNow so ServiceNow could display maps\n- In the final 2-3 months of the engagement, led development of a custom frontend application to replace the ServiceNow map display, using GitHub Copilot to accelerate development with a modernized framework\n- Integrated the new frontend application with the PostgreSQL database and ArcGIS\n- Built a recreation site inventory feature allowing users to view and modify data associated with a recreation site\n- Built a ticketing system for surveys conducted on recreation sites\n- Presented the finished proof-of-concept application to the client",
+    "technicalArchitecture": "- Legacy state: Oracle database integrated with ArcGIS Enterprise, storing the US federal government agency land unit data (recreation sites in particular)\n- Target state: PostgreSQL with the PostGIS extension, redesigned schema, integrated with ArcGIS Server for map publishing\n- Mid-engagement integration: ArcGIS-to-ServiceNow integration so ServiceNow could render maps\n- Final-phase proof of concept: a custom frontend application (modern framework — specific framework TBD) built with GitHub Copilot assistance, integrated directly with the PostgreSQL database and ArcGIS, replacing the ServiceNow map display; included a recreation site inventory (view/edit) and a survey ticketing system",
+    "technologiesUsed": [
+      "Oracle Database (legacy)",
+      "PostgreSQL",
+      "PostGIS",
+      "ArcGIS Enterprise",
+      "ArcGIS Server (configuration, map feature publishing)",
+      "ServiceNow (integration)",
+      "GitHub Copilot",
+      "Modern frontend framework (specific framework TBD)"
+    ],
+    "leadership": "Managed a 2-3 person team of database developers; worked directly with the client to deliver demos and secure approvals across the full engagement",
+    "challenges": "Redesigning a legacy, ArcGIS-integrated Oracle schema for performance while maintaining continuity of a live GIS system used for recreation site management; a late-stage scope change to replace ServiceNow's map display with a custom-built frontend, delivered in a compressed final 2-3 month window",
+    "results": "Successfully migrated recreation site data from Oracle to PostgreSQL/PostGIS with a redesigned, more performant schema, and integrated the new database with ArcGIS Server. Delivered a proof-of-concept custom frontend application (recreation site inventory + survey ticketing system) integrated with PostgreSQL and ArcGIS, built with GitHub Copilot assistance. The client ultimately did not proceed past the POC stage with the custom frontend due to budget constraints — the underlying database migration and ArcGIS integration work remained the durable deliverable of the engagement.",
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Led the migration of a legacy Oracle/ArcGIS Enterprise land-unit database to PostgreSQL with PostGIS for the US federal government agency, redesigning the schema for performance while managing a 2-3 person database development team",
+      "Integrated PostgreSQL/PostGIS with ArcGIS Server and ArcGIS Enterprise, configuring and publishing map features for recreation site management",
+      "Used GitHub Copilot to rapidly build a proof-of-concept custom frontend application — including a recreation site inventory and survey ticketing system — integrated with PostgreSQL and ArcGIS, replacing a legacy ServiceNow-based map display"
+    ]
+  },
+  {
+    "slug": "2023-national-insurance-carrier",
+    "year": 2023,
+    "dates": "February, 2023 - April, 2023",
+    "role": "Application Architect (TMC App Mod: Ph 1 Discovery, project ID 9940401629)",
+    "industry": "Insurance (Property & Casualty)",
+    "clientDescriptor": "National insurance carrier",
+    "businessProblem": null,
+    "responsibilities": "- Java Full Stack Developer supporting P&C (Property & Casualty) product lines with AppDev support\n- Collaborated with multi-disciplinary teams on design, troubleshooting, and developing systems/apps\n- Established and fine-tuned CI/CD pipeline and practices\n- Participated in daily standups, knowledge transfer (KT), and retrospectives\n- Read team member code and pinpointed problems\n- Required strong software development experience (Java and JavaScript) in an Agile environment using Test-Driven Development methodology\n- Architected highly-available, resilient, fault-tolerant systems; developed web services; developed/refactored code\n- Used monitoring tools and code scanning tools",
+    "technicalArchitecture": "- Highly-available (H/A), resilient, fault-tolerant systems architecture\n- Web services in a Java full-stack environment",
+    "technologiesUsed": [
+      "Java",
+      "JavaScript",
+      "CI/CD",
+      "Test-Driven Development (TDD)",
+      "Monitoring tools",
+      "Code scanning tools"
+    ],
+    "leadership": "Collaborated across multi-disciplinary teams on design and troubleshooting; reviewed team member code to pinpoint problems (no direct-report team size stated)",
+    "challenges": "Architecting highly-available, resilient, fault-tolerant systems while establishing/tuning CI/CD pipeline practices during a Phase 1 discovery modernization effort",
+    "results": null,
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Served as Java Full Stack Developer/Application Architect supporting the National insurance carrier's P&C product line application modernization, architecting highly-available, fault-tolerant systems using TDD in an Agile environment",
+      "Established and tuned CI/CD pipeline practices, and performed code reviews using monitoring and code scanning tools"
+    ]
+  },
+  {
+    "slug": "2022-bank",
+    "year": 2022,
+    "dates": "May, 2022 - December, 2023 (project ID 11539629, role transitioned partway through)",
+    "role": "Application Support Engineer (May 2022 - July 2022) → Application Developer (June 2022 - December 2023)",
+    "industry": "Banking / Financial Services",
+    "clientDescriptor": "Fortune 100 bank",
+    "businessProblem": null,
+    "responsibilities": "As Application Support Engineer (May-July 2022):\n- Led the technical implementation of software product delivery, driving project implementations from a technical perspective\n- Provided technical guidance to implementation teams, ensuring adherence to the Fortune 100 bank and industry best practices and configuration principles\n- Performed complex engineering activities, including code reviews and quality validation across the team\n- Conducted and directed engineering activities such as application code creation and integration with related applications/APIs/microservices\n- Nice-to-have exposure: CFT, Terraform, Cloud Deploy, CI/CD, Jenkins, Docker\n\nAs Application Developer (June 2022-December 2023):\n- Designed, built, and configured applications to meet business process and application requirements",
+    "technicalArchitecture": "- Decisioning-as-a-Service microservices platform (\"Pods\")\n- Integration with related applications/APIs/microservices",
+    "technologiesUsed": [
+      "APIs / Microservices",
+      "CFT",
+      "Terraform",
+      "Cloud Deploy",
+      "CI/CD",
+      "Jenkins",
+      "Docker"
+    ],
+    "leadership": "Provided technical guidance to implementation teams and directed engineering activities including code reviews across the team during the Application Support Engineer phase",
+    "challenges": "Ensuring implementation teams followed the Fortune 100 bank best practices, industry best practices, and configuration principles across a decisioning microservices platform",
+    "results": null,
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Led technical implementation and code review/quality validation for the Fortune 100 bank's Decisioning-as-a-Service Pods platform, directing engineering activities across application, API, and microservice integrations",
+      "Transitioned into an Application Developer role on the same initiative, designing, building, and configuring applications to meet evolving business process requirements over an 18-month engagement"
+    ]
+  },
+  {
+    "slug": "2022-technology-company",
+    "year": 2022,
+    "dates": "August, 2022 - December, 2022",
+    "role": "Integration Architect (WSIG Services IT - eSupport, project ID 9940335480)",
+    "industry": "Technology / IT Hardware & Services",
+    "clientDescriptor": "Fortune 100 technology company",
+    "businessProblem": null,
+    "responsibilities": "- Architected an end-to-end integration solution\n- Drove client discussions to define integration requirements and translate business requirements into a technology solution\n- Mapped business processes to support applications\n- Defined data entities\n- Selected integration technology components and patterns\n- Designed the integration architecture\n- Key expectations: system integration design and development; API integration and enterprise architecture",
+    "technicalArchitecture": "- End-to-end integration solution mapping business processes to support applications, with defined data entities and integration technology patterns",
+    "technologiesUsed": [
+      "API integration",
+      "Enterprise architecture / integration patterns"
+    ],
+    "leadership": "Drove client discussions and led the definition/translation of business requirements into the technology solution (no direct-report team size stated)",
+    "challenges": null,
+    "results": null,
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Architected an end-to-end integration solution for the Fortune 100 technology company' WSIG Services IT eSupport initiative, driving client discussions to translate business requirements into a technology solution",
+      "Defined data entities, integration components, and patterns as part of an API-first enterprise integration architecture"
+    ]
+  },
+  {
+    "slug": "2020-internal-enterprise-platform",
+    "year": 2020,
+    "dates": "July, 2020 - November, 2020",
+    "role": "Data Platform Engineer",
+    "industry": "Internal Accenture Product Development / Life Sciences",
+    "clientDescriptor": "Internal enterprise platform",
+    "businessProblem": null,
+    "responsibilities": "- Spring Boot Java development\n- Docker in both production and development environments\n- Continuous integration and continuous deployment\n- Serverless application development\n- Microservice oriented architecture\n- Wrote and used REST APIs\n- Worked with message-based architecture (PubSub, Kafka, etc.)\n- Event sourcing\n- VueJs, React, or similar front-end frameworks\n- Automated testing\n- Agile scrum development practices\n- Experience with GCP (preferred), AWS, or Azure",
+    "technicalArchitecture": "- Microservice-oriented, serverless architecture with event sourcing and message-based (PubSub/Kafka) communication",
+    "technologiesUsed": [
+      "Spring Boot",
+      "Docker",
+      "CI/CD",
+      "REST APIs",
+      "PubSub",
+      "Kafka",
+      "VueJs / React",
+      "Google Cloud Platform (GCP): Data Flow, HealthCare API, Cloud Functions, Apigee, Redis, Spanner",
+      "Agile/Scrum"
+    ],
+    "leadership": null,
+    "challenges": null,
+    "results": null,
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Built serverless, microservice-oriented applications on GCP (Cloud Functions, PubSub, Spanner, Apigee, Redis) using Spring Boot and Docker for Accenture's internal the Internal enterprise platform life sciences platform",
+      "Implemented event-sourced, message-based architecture (Kafka/PubSub) with REST APIs under Agile/Scrum practices"
+    ]
+  },
+  {
+    "slug": "2020-healthcare-focused-private-equity-firm",
+    "year": 2020,
+    "dates": "December, 2020 - December, 2020",
+    "role": "Application Developer (MIB Partnership Strategy)",
+    "industry": "Private Equity / Healthcare Investment",
+    "clientDescriptor": "Healthcare-focused private equity firm",
+    "businessProblem": null,
+    "responsibilities": "- Designed, built, and configured applications to meet business process and application requirements",
+    "technicalArchitecture": null,
+    "technologiesUsed": [],
+    "leadership": null,
+    "challenges": null,
+    "results": null,
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Designed, built, and configured applications for the Healthcare-focused private equity firm to meet defined business process and application requirements"
+    ]
+  },
+  {
+    "slug": "2020-utility-company",
+    "year": 2020,
+    "dates": "December, 2020 - March, 2022",
+    "role": "Technology Architect (NOVA2 Microservices)",
+    "industry": "Utilities / Energy",
+    "clientDescriptor": "Fortune 500 utility company",
+    "businessProblem": null,
+    "responsibilities": "- Reviewed and integrated all application requirements, including functional, security, integration, performance, quality, and operations requirements\n- Reviewed and integrated the technical architecture requirements\n- Provided input into final decisions regarding hardware, network products, system software, and security",
+    "technicalArchitecture": "- Microservices platform (\"NOVA2 Microservices\") - functional, security, integration, performance, quality, and operations requirements integrated at the technical architecture level",
+    "technologiesUsed": [
+      "Microservices architecture"
+    ],
+    "leadership": "Provided input into final decisions on hardware, network products, system software, and security (no direct-report team size stated)",
+    "challenges": null,
+    "results": null,
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Reviewed and integrated functional, security, integration, performance, quality, and operations requirements into the technical architecture for the Fortune 500 utility company's NOVA2 microservices platform",
+      "Provided architectural input into hardware, network product, system software, and security decisions over a 15-month engagement"
+    ]
+  },
+  {
+    "slug": "2019-major-petroleum-refining-company",
+    "year": 2019,
+    "dates": "October, 2019 - March, 2020",
+    "role": "Application Lead (DS.MV.Application Services)",
+    "industry": "Oil & Gas / Energy",
+    "clientDescriptor": "Major petroleum refining company",
+    "businessProblem": "the Major petroleum refining company announced plans to acquire a chemical plant owned by Flint Hills (transition date scheduled for 11/1), requiring custom Master Data Management, Security, and Configuration solutions in Amazon AWS to support the transition.",
+    "responsibilities": "- Supported custom Master Data Management, Security, and Configuration solutions in Amazon AWS for the Major petroleum refining company/Flint Hills chemical plant acquisition transition\n- Worked with .NET, SQL, Oracle, Oracle PL/SQL, and SQL stored procedures to support enterprise custom applications",
+    "technicalArchitecture": "- Custom Master Data Management, Security, and Configuration solutions hosted in Amazon AWS\n- .NET / SQL / Oracle based enterprise custom applications",
+    "technologiesUsed": [
+      ".NET",
+      "SQL",
+      "Oracle Database",
+      "Oracle PL/SQL",
+      "SQL stored procedures",
+      "Amazon Web Services (AWS)"
+    ],
+    "leadership": null,
+    "challenges": "Supporting a time-sensitive business transition (chemical plant acquisition) requiring custom MDM, security, and configuration solutions",
+    "results": null,
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Supported custom Master Data Management, Security, and Configuration solutions in AWS (.NET, SQL, Oracle PL/SQL) for the Major petroleum refining company's acquisition of a Flint Hills chemical plant"
+    ]
+  },
+  {
+    "slug": "2019-insurance-company",
+    "year": 2019,
+    "dates": "April, 2019 - July, 2019",
+    "role": "Cloud Platform Architect (Agent Digital Marketing Nationwide)",
+    "industry": "Insurance",
+    "clientDescriptor": "Fortune 50 insurance company",
+    "businessProblem": null,
+    "responsibilities": "- Oversaw application architecture and deployment in cloud platform environments, including public cloud, private cloud, and hybrid cloud\n- Developed cloud adoption plans\n- Owned cloud application design\n- Oversaw cloud management and monitoring",
+    "technicalArchitecture": "- Multi-cloud environment: public cloud, private cloud, and hybrid cloud",
+    "technologiesUsed": [],
+    "leadership": null,
+    "challenges": null,
+    "results": null,
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Oversaw application architecture and deployment across public, private, and hybrid cloud environments for the Fortune 50 insurance company's Agent Digital Marketing Nationwide initiative",
+      "Developed cloud adoption plans and established cloud management and monitoring practices"
+    ]
+  },
+  {
+    "slug": "2018-healthcare-retail-company",
+    "year": 2018,
+    "dates": "August, 2018 - October, 2018",
+    "role": "Technology Architect (Enterprise IT Adv Assessment PBM 1087074)",
+    "industry": "Healthcare / Retail Pharmacy",
+    "clientDescriptor": "Fortune 10 healthcare & retail company",
+    "businessProblem": null,
+    "responsibilities": "- Delivered a technology architecture assessment using New IT",
+    "technicalArchitecture": "- Assessment methodology: Accenture \"New IT\"",
+    "technologiesUsed": [],
+    "leadership": null,
+    "challenges": null,
+    "results": "Delivered a completed technology architecture assessment for the client's PBM (Pharmacy Benefit Management) organization",
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Delivered a technology architecture assessment for the Fortune 10 healthcare & retail company's PBM organization using Accenture's New IT methodology"
+    ]
+  },
+  {
+    "slug": "2018-hospitality-company",
+    "year": 2018,
+    "dates": "July, 2018 - July, 2018",
+    "role": "Technology Architect (Red Hedgehog Venture Const., project ref. 9940259842)",
+    "industry": "Hospitality",
+    "clientDescriptor": "Fortune 500 hospitality company",
+    "businessProblem": null,
+    "responsibilities": "- Supported the stand-up of a new AWS subscription\n- Supported the DevOps tooling and pipelines in support of mobile/serverless development",
+    "technicalArchitecture": "- New AWS subscription/environment\n- DevOps pipelines supporting mobile and serverless development",
+    "technologiesUsed": [
+      "AWS",
+      "Serverless",
+      "DevOps tooling/pipelines"
+    ],
+    "leadership": null,
+    "challenges": null,
+    "results": null,
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Stood up a new AWS subscription and DevOps tooling/pipelines to support mobile and serverless development for the Fortune 500 hospitality company's Red Hedgehog venture"
+    ]
+  },
+  {
+    "slug": "2018-provincial-government-transit-agency",
+    "year": 2018,
+    "dates": "November, 2018 - January, 2019",
+    "role": "Application Architect (the Provincial government transit agency)",
+    "industry": "Government / Public Transit",
+    "clientDescriptor": "Provincial government transit agency",
+    "businessProblem": null,
+    "responsibilities": "- Developed and delivered a function and event-driven microservice architecture platform built with Kotlin",
+    "technicalArchitecture": "- Function and event-driven microservice architecture",
+    "technologiesUsed": [
+      "Kotlin",
+      "Microservices architecture"
+    ],
+    "leadership": null,
+    "challenges": null,
+    "results": "Delivered a function and event-driven microservice architecture platform",
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Designed and delivered a function/event-driven microservice architecture platform built in Kotlin for the Provincial government transit agency's the Provincial government transit agency transit initiative"
+    ]
+  },
+  {
+    "slug": "2017-global-apparel-retail-group",
+    "year": 2017,
+    "dates": "July, 2017 - November, 2017",
+    "role": "Infrastructure Architect (Infrastructure Technical Architect)",
+    "industry": "Retail / Apparel",
+    "clientDescriptor": "Global apparel retail group",
+    "businessProblem": null,
+    "responsibilities": "- Worked with an international firm to define the API and Batch architecture\n- Defined the technology stack and communicated with client and key stakeholders\n- Produced a reference application used by onsite and offshore teams to increase time-to-delivery",
+    "technicalArchitecture": "- API and Batch architecture defined jointly with an international partner firm\n- Reference application/technology stack for onsite and offshore delivery teams",
+    "technologiesUsed": [],
+    "leadership": "Communicated technology stack direction to client and key players; enabled onsite and offshore teams via a reference application (no direct-report team size stated)",
+    "challenges": null,
+    "results": "Reference application increased time-to-delivery for onsite and offshore teams",
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Defined the API and Batch architecture and technology stack for Fast Retailing's the Global apparel retail group 2.0 initiative in partnership with an international firm",
+      "Produced a reference application adopted by onsite and offshore teams, improving delivery speed"
+    ]
+  },
+  {
+    "slug": "2017-hospitality-company",
+    "year": 2017,
+    "dates": "December, 2017 - June, 2018",
+    "role": "Technology Architect (200 AHS IO Run - Washington, D.C. - API Lead/Architect)",
+    "industry": "Hospitality",
+    "clientDescriptor": "Fortune 500 hospitality company",
+    "businessProblem": null,
+    "responsibilities": "- API Lead/Architect: integration architect building, supporting, and leading a REST API as a platform initiative at the Fortune 500 hospitality company\n- Built custom Java applications for REST APIs using CXF and Apache Camel frameworks\n- Proactively communicated risks or issues to the team and provided technical solutions\n- Used Jira, Jenkins, Git, and Agile practices",
+    "technicalArchitecture": "- REST API platform built with custom Java applications using CXF and Apache Camel",
+    "technologiesUsed": [
+      "Java",
+      "Apache CXF",
+      "Apache Camel",
+      "Jira",
+      "Jenkins",
+      "Git",
+      "Agile"
+    ],
+    "leadership": "Served as API Lead/Architect for the REST API platform initiative (no direct-report team size stated)",
+    "challenges": null,
+    "results": null,
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Served as API Lead/Architect on the Fortune 500 hospitality company's REST API platform initiative (\"200 AHS IO Run\"), building Java REST services with CXF and Apache Camel",
+      "Provided ongoing risk identification and technical solutions across the Agile delivery team using Jira, Jenkins, and Git"
+    ]
+  },
+  {
+    "slug": "2017-hospitality-company-2",
+    "year": 2017,
+    "dates": "May, 2017 - September, 2017",
+    "role": "Technology Architect (200 IO Run - Washington, D.C. - API Lead/Architect)",
+    "industry": "Hospitality",
+    "clientDescriptor": "Fortune 500 hospitality company",
+    "businessProblem": null,
+    "responsibilities": "- API Lead/Architect: integration architect building, supporting, and leading a REST API as a platform initiative at the Fortune 500 hospitality company\n- Built efficient and custom Java applications for REST APIs using CXF and Apache Camel frameworks\n- Proactively communicated risks or issues to the team and provided technical solutions\n- Used Jira, Jenkins, Git, and Agile practices",
+    "technicalArchitecture": "- REST API platform built with custom Java applications using CXF and Apache Camel",
+    "technologiesUsed": [
+      "Java",
+      "Apache CXF",
+      "Apache Camel",
+      "Jira",
+      "Jenkins",
+      "Git",
+      "Agile"
+    ],
+    "leadership": "Served as API Lead/Architect for the REST API platform initiative (no direct-report team size stated)",
+    "challenges": null,
+    "results": null,
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Served as API Lead/Architect on the Fortune 500 hospitality company's REST API platform initiative (\"200 IO Run\"), building Java REST services with CXF and Apache Camel",
+      "Proactively surfaced and resolved technical risks across the Agile delivery team using Jira, Jenkins, and Git"
+    ]
+  },
+  {
+    "slug": "2016-cruise-line",
+    "year": 2016,
+    "dates": "August, 2016 - March, 2017",
+    "role": "Technology Architect (the Fortune 500 cruise line WebSite - Build - Miami)",
+    "industry": "Travel & Hospitality / Cruise Line",
+    "clientDescriptor": "Fortune 500 cruise line",
+    "businessProblem": "The client needed an API architecture for a large-scale digital transformation, including web services and API contracts between the web client, API gateway, and middleware services.",
+    "responsibilities": "- Responsible for defining and creating API architecture for a large-scale digital transformation using AWS API Gateway and Lambda function\n- Defined web services and API contracts between web client, API gateway, and client's middleware services\n- Led and supervised a team of API developers to design, implement, and test APIs",
+    "technicalArchitecture": "- API architecture using AWS API Gateway and AWS Lambda\n- Defined contracts between web client, API gateway, and middleware services",
+    "technologiesUsed": [
+      "AWS API Gateway",
+      "AWS Lambda",
+      "REST APIs"
+    ],
+    "leadership": "Led and supervised a team of API developers to design, implement, and test APIs (team size not stated)",
+    "challenges": "Defining API architecture and contracts at scale for a large-scale digital transformation",
+    "results": null,
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Defined and delivered the API architecture (AWS API Gateway, Lambda) for the Fortune 500 cruise line' large-scale digital transformation, establishing contracts between web client, gateway, and middleware",
+      "Led and supervised a team of API developers through design, implementation, and testing of the platform's APIs"
+    ]
+  },
+  {
+    "slug": "2015-semiconductor-company",
+    "year": 2015,
+    "dates": "January, 2015 - March, 2015",
+    "role": "Technology Architect (Development Lead - Wayne Fuels/the Fortune 50 semiconductor company)",
+    "industry": "Semiconductor / Technology Manufacturing",
+    "clientDescriptor": "Fortune 50 semiconductor company",
+    "businessProblem": null,
+    "responsibilities": "- Served as Development Lead, leading the team through the development process\n- Effectively managed a team of developers\n- Defined, owned, and evolved solution and technology architecture of mission-critical systems for data centers\n- Provided thought leadership, strategy, and led innovation by exploring, investigating, recommending, benchmarking, and implementing technologies\n- Worked and trained in Apigee to support the needs of the project",
+    "technicalArchitecture": "- Solution and technology architecture for mission-critical data center systems",
+    "technologiesUsed": [
+      "Apigee"
+    ],
+    "leadership": "Development Lead; effectively managed a team of developers (team size not stated)",
+    "challenges": null,
+    "results": null,
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Served as Development Lead for the Fortune 50 semiconductor company's Wayne Fuels initiative, owning and evolving the solution/technology architecture for mission-critical data center systems",
+      "Drove technology innovation strategy through exploring, benchmarking, and implementing new technologies, including hands-on Apigee training and adoption"
+    ]
+  },
+  {
+    "slug": "2015-hospitality-company",
+    "year": 2015,
+    "dates": "July, 2015 - June, 2016",
+    "role": "Integration Architect",
+    "industry": "Hospitality",
+    "clientDescriptor": "Fortune 500 hospitality company",
+    "businessProblem": null,
+    "responsibilities": "- Integration architect building, supporting, and leading a REST API as a platform initiative at the Fortune 500 hospitality company\n- Built efficient and custom Java applications for REST APIs using CXF and Apache Camel frameworks\n- Proactively communicated risks or issues to the team and provided technical solutions\n- Used Jira, Jenkins, Git, and Agile practices",
+    "technicalArchitecture": "- REST API platform built with custom Java applications using CXF and Apache Camel",
+    "technologiesUsed": [
+      "Java",
+      "Apache CXF",
+      "Apache Camel",
+      "Jira",
+      "Jenkins",
+      "Git",
+      "Agile"
+    ],
+    "leadership": "Led the REST API platform initiative as Integration Architect (no direct-report team size stated)",
+    "challenges": null,
+    "results": null,
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Led the REST API platform initiative at the Fortune 500 hospitality company as Integration Architect, building custom Java REST services with CXF and Apache Camel",
+      "Proactively identified and resolved technical risks across the Agile team using Jira, Jenkins, and Git"
+    ]
+  },
+  {
+    "slug": "2015-retail-company",
+    "year": 2015,
+    "dates": "April, 2015 - October, 2015",
+    "role": "Technology Architect (RMS and Custom Applications - US)",
+    "industry": "Retail",
+    "clientDescriptor": "Fortune 100 retail company",
+    "businessProblem": null,
+    "responsibilities": "- Served as part of the integration architecture team\n- Analyzed business requirements to construct target architectures\n- Presented constructed architectures to the client\n- Architectures were executed on (built) following client presentation/approval",
+    "technicalArchitecture": null,
+    "technologiesUsed": [],
+    "leadership": null,
+    "challenges": null,
+    "results": "Architectures presented to the client were approved and executed on, per Russell's recollection",
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Served on TJX's integration architecture team, analyzing business requirements to construct target-state architectures that were presented to and approved by the client, then executed"
+    ]
+  },
+  {
+    "slug": "2014-national-retail-kiosk-company",
+    "year": 2014,
+    "dates": "October, 2014 - December, 2014",
+    "role": "Technology Architect (Video Solution Architect - the National retail kiosk company Phase 0)",
+    "industry": "Retail / Media Kiosk (video rental)",
+    "clientDescriptor": "National retail kiosk company",
+    "businessProblem": "The client needed to assess whether the existing platform architecture covered business requirements and identify risk areas relative to Accenture's OTT (over-the-top) reference architecture.",
+    "responsibilities": "- Served as Video Solution Architect\n- Reviewed coverage of business requirements against platform architecture\n- Performed gap analysis of platform architecture against Accenture OTT reference architecture\n- Identified areas of risk or issues that could prevent or make it difficult to achieve future business and operational goals",
+    "technicalArchitecture": "- Assessment against Accenture's OTT (over-the-top) reference architecture",
+    "technologiesUsed": [],
+    "leadership": null,
+    "challenges": null,
+    "results": "Delivered a gap analysis identifying architecture risk areas relative to the OTT reference architecture and future business/operational goals",
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Performed a video platform architecture assessment for the National retail kiosk company, evaluating coverage against business requirements and Accenture's OTT reference architecture",
+      "Identified architecture risk areas that could impede future business and operational goals"
+    ]
+  },
+  {
+    "slug": "2013-government-sponsored-mortgage-finance-enterprise",
+    "year": 2013,
+    "dates": "February, 2013 - April, 2013",
+    "role": "Delivery Lead (CLM - Change The Bank - Collections Platform Vendor Assessment)",
+    "industry": "Financial Services / Government-Sponsored Enterprise (Mortgage Finance)",
+    "clientDescriptor": "Government-sponsored mortgage finance enterprise",
+    "businessProblem": "The client needed to evaluate packaged billing and collections platforms via an RFP process to select a vendor solution that fits the Government-sponsored mortgage finance enterprise's technology architecture.",
+    "responsibilities": "- Led the technology work stream of an RFP to evaluate packaged billing and collections platforms\n- Coordinated with client IT directors to develop technical requirements, construct the vendor RFP, and define vendor scoring criteria/models\n- Facilitated input on the technical evaluation of the vendor(s)\n- Conducted solutioning sessions with vendor(s) and the Government-sponsored mortgage finance enterprise to define how the vendor solution fits into the Government-sponsored mortgage finance enterprise's technology architecture",
+    "technicalArchitecture": null,
+    "technologiesUsed": [],
+    "leadership": "Led the technology work stream of the RFP, coordinating directly with client IT directors",
+    "challenges": null,
+    "results": null,
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Led the technology work stream of an RFP to evaluate packaged billing/collections platforms for the Government-sponsored mortgage finance enterprise, defining technical requirements and vendor scoring criteria in partnership with client IT directors",
+      "Facilitated vendor solutioning sessions to validate platform fit against the Government-sponsored mortgage finance enterprise's technology architecture"
+    ]
+  },
+  {
+    "slug": "2013-global-top-tier-bank",
+    "year": 2013,
+    "dates": "April, 2013 - September, 2013",
+    "role": "Technology Architect (Card Services)",
+    "industry": "Banking / Financial Services",
+    "clientDescriptor": "Global top-tier bank",
+    "businessProblem": "The client needed to define a future card processing strategy, including a strategic assessment of multiple current card processors and identification of a recommended target-state processor.",
+    "responsibilities": "- Performed an architecture assessment role to define future card processing strategy with associated architecture and integration with internal systems\n- Conducted strategic assessment of current state of multiple processors and recommended a target state card processor\n- Identified gaps between multiple current platforms and the single target platform\n- Drove the technical side of the assessment in reviewing current state architecture of multiple payment processing platforms\n- Drove gap analysis between current state platforms and the selected target state\n- Identified impacted applications resulting from the platform conversion",
+    "technicalArchitecture": "- Multi-platform card/payment processing architecture assessment; target-state architecture and integration with internal systems",
+    "technologiesUsed": [],
+    "leadership": "Drove the technical side of the strategic assessment (no direct-report team size stated)",
+    "challenges": "Assessing and reconciling multiple current-state card processing platforms against a single target-state platform, including identifying all downstream impacted applications",
+    "results": "Delivered a recommended target-state card processor and a gap analysis identifying platforms and applications impacted by the conversion",
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Led the technical assessment of multiple card processing platforms for the Global top-tier bank, recommending a target-state processor and defining the integration architecture with internal systems",
+      "Conducted gap analysis identifying all applications impacted by the card processor platform conversion"
+    ]
+  },
+  {
+    "slug": "2013-hospitality-company",
+    "year": 2013,
+    "dates": "October, 2013 - September, 2014",
+    "role": "Technology Architect (API Gateway - Reservations track)",
+    "industry": "Hospitality",
+    "clientDescriptor": "Fortune 500 hospitality company",
+    "businessProblem": "the Fortune 500 hospitality company needed a new REST layer built on top of existing SOAP services on an aggressive schedule, including APIs to handle hotel reservation bookings.",
+    "responsibilities": "- Responsible for building a new REST layer on top of SOAP services under an aggressive schedule\n- Worked with Apache Camel for orchestration and CXF to expose REST services\n- Owned the reservations track, exposing APIs that handled booking of a hotel reservation\n- Used Jira for bug tracking and Git for the code repository",
+    "technicalArchitecture": "- REST layer built on top of existing SOAP services\n- Apache Camel for orchestration\n- Apache CXF to expose REST services",
+    "technologiesUsed": [
+      "Java",
+      "Apache Camel",
+      "Apache CXF",
+      "REST",
+      "SOAP",
+      "Jira",
+      "Git"
+    ],
+    "leadership": null,
+    "challenges": "Aggressive schedule for building a new REST layer on top of legacy SOAP services",
+    "results": null,
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Owned the reservations track of the Fortune 500 hospitality company's API Gateway initiative, building REST APIs for hotel reservation booking on top of legacy SOAP services using Apache Camel and CXF",
+      "Delivered a new REST layer over existing SOAP services on an aggressive schedule using Jira and Git for tracking and version control"
+    ]
+  },
+  {
+    "slug": "2012-global-asset-management-firm",
+    "year": 2012,
+    "dates": "July, 2012 - January, 2013",
+    "role": "Integration Architect (CISR - Integration Services, Inbound Interfaces)",
+    "industry": "Financial Services / Asset Management",
+    "clientDescriptor": "Global asset management firm",
+    "businessProblem": "The client was undergoing a major transformation of several core backend systems and needed defined integration patterns and a reference architecture for inbound ETL interfaces feeding new accounting and settlements systems.",
+    "responsibilities": "- Served as Integration Architect for Inbound Interfaces during a major transformation involving several core backend systems\n- Worked with the client architecture services team to define integration patterns and styles for inbound ETL interfaces through Informatica to the new accounting and settlements systems\n- Received approval for a future integration blueprint, interface inventory, and reference architecture from the client architecture review board\n- Used the approved blueprint to facilitate the design effort for the integration services team\n- Worked closely with the integration services team by reviewing and obtaining sign-off of key architecture and design decisions",
+    "technicalArchitecture": "- Inbound ETL interface patterns using Informatica feeding new accounting and settlements systems\n- Integration blueprint, interface inventory, and reference architecture approved by client architecture review board",
+    "technologiesUsed": [
+      "Informatica (ETL)"
+    ],
+    "leadership": "Worked closely with the integration services team, reviewing and obtaining sign-off on key architecture and design decisions (no direct-report team size stated)",
+    "challenges": "Defining integration patterns during a major core-backend-systems transformation and gaining architecture review board approval",
+    "results": "Received formal approval of the integration blueprint, interface inventory, and reference architecture from the client's architecture review board",
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Defined inbound ETL integration patterns (via Informatica) and a reference architecture for new accounting/settlements systems during a major core-systems transformation at Capital Group",
+      "Secured architecture review board approval for an integration blueprint and interface inventory that became the design foundation for the integration services team"
+    ]
+  },
+  {
+    "slug": "2011-pharmaceutical-company",
+    "year": 2011,
+    "dates": "October, 2011 - September, 2012",
+    "role": "Integration Architect",
+    "industry": "Pharmaceuticals / Life Sciences",
+    "clientDescriptor": "Fortune 500 pharmaceutical company",
+    "businessProblem": null,
+    "responsibilities": "- Provided technical expertise to set the technical direction on the project\n- Managed issues, architecture, technical integration and technical service levels for a group of technologies that included Java frameworks, WebLogic, Oracle DB, Sharepoint, content management, and mobile\n- Defined and designed technical requirements to support business requirements\n- Participated in detailed design and code reviews\n- Reviewed system performance and consumption issues\n- Reviewed test plans, and provided technical guidance and support to others\n- Managed onshore/offshore eServices Platform (eSP) team through enhancement releases\n- Provided architecture guidance to brand website teams",
+    "technicalArchitecture": "- Multi-technology enterprise platform: Java frameworks, WebLogic, Oracle DB, Sharepoint, content management, and mobile",
+    "technologiesUsed": [
+      "Java frameworks",
+      "WebLogic",
+      "Oracle Database",
+      "SharePoint",
+      "Content management systems",
+      "Mobile technologies"
+    ],
+    "leadership": "Managed the onshore/offshore eServices Platform (eSP) team through enhancement releases; provided architecture guidance to brand website teams",
+    "challenges": "Managing technical service levels and integration across a broad, heterogeneous technology group (Java, WebLogic, Oracle, Sharepoint, content management, mobile)",
+    "results": null,
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Set technical direction and managed architecture, integration, and service levels across a multi-technology platform (Java, WebLogic, Oracle DB, Sharepoint, content management, mobile) for the Fortune 500 pharmaceutical company",
+      "Managed an onshore/offshore eServices Platform (eSP) team through enhancement releases while providing architecture guidance to brand website teams"
+    ]
+  },
+  {
+    "slug": "2010-global-media-market-research-company",
+    "year": 2010,
+    "dates": "July, 2010 - December, 2011",
+    "role": "Integration Architect (SOA Architect)",
+    "industry": "Media & Market Research / Consumer Data Analytics",
+    "clientDescriptor": "Global media & market research company",
+    "businessProblem": null,
+    "responsibilities": "- Served as Service Oriented Application (SOA) architect in charge of generating technical architecture and design direction for a custom web application\n- Worked with client product leadership on a daily basis to understand the business needs and ensure they were articulated in all aspects of the architecture\n- Collaborated with other the Global media & market research company client architects to drive out solutions",
+    "technicalArchitecture": "- Service Oriented Application (SOA) architecture for a custom web application, built using TIBCO, Flex, Oracle, Spring, and Hibernate",
+    "technologiesUsed": [
+      "TIBCO",
+      "Adobe Flex",
+      "Oracle Database",
+      "Spring Framework",
+      "Hibernate"
+    ],
+    "leadership": "Daily collaboration with client product leadership; collaborated with other the Global media & market research company client architects (no direct-report team size stated)",
+    "challenges": null,
+    "results": null,
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Served as SOA architect for a custom the Global media & market research company web application built on TIBCO, Flex, Oracle, Spring, and Hibernate, setting technical architecture and design direction",
+      "Partnered daily with client product leadership and fellow the Global media & market research company architects to translate business needs into architectural decisions"
+    ]
+  },
+  {
+    "slug": "2010-global-media-market-research-company-2",
+    "year": 2010,
+    "dates": "January, 2010 - June, 2010",
+    "role": "Program/Project Management Lead",
+    "industry": "Media & Market Research / Consumer Data Analytics",
+    "clientDescriptor": "Global media & market research company",
+    "businessProblem": "The client needed assurance that production data was not corrupt, requiring a data validation framework to verify data integrity for downstream client reporting.",
+    "responsibilities": "- Led an Accenture team through an aggressive schedule to set up a data validation framework that verified production data was not corrupt for the client\n- Defined the validation data model and an application framework generic enough that new custom validations could be set up to run each week\n- Maintained constant contact with client directors on this high-visibility project, ensuring all reports generated for their clients had correct data behind them",
+    "technicalArchitecture": "- Custom data validation framework with a defined validation data model\n- Generic application framework supporting weekly configuration of new custom validations",
+    "technologiesUsed": [],
+    "leadership": "Led an Accenture team through an aggressive schedule to deliver a high-visibility data validation framework; maintained constant contact with client directors",
+    "challenges": "Aggressive delivery schedule on a high-visibility project with constant client director oversight",
+    "results": "Delivered a working data validation framework that verified production data integrity, giving client directors confidence in the accuracy of reports generated for their clients",
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Led an Accenture team to deliver a data validation framework on an aggressive schedule, verifying production data integrity for a high-visibility client reporting initiative",
+      "Designed a generic validation application framework and data model enabling new custom validations to be configured and run weekly"
+    ]
+  },
+  {
+    "slug": "2009-payments-technology-company",
+    "year": 2009,
+    "dates": "January, 2009 - February, 2009",
+    "role": "Application Development Cell Lead",
+    "industry": "Financial Technology / Payments",
+    "clientDescriptor": "Fortune 500 payments technology company",
+    "businessProblem": null,
+    "responsibilities": "- Led a team of 4 development resources through technical architecture design for a new web application\n- Developed knowledge and understanding of business processes necessary to complete team related tasks\n- Developed knowledge and understanding of the current technical architecture and application development standards\n- Worked with Project Manager and Application Development Manager to lead and manage detailed design, unit test planning, and build activities and address issues/obstacles\n- Proactively raised issues and proposed solutions\n- Managed team members' work efforts and verified quality and completion\n- Planned/scheduled working sessions with Functional Designers, Business Analysts, SMEs, and team members to complete work products\n- Completed review processes (informal/formal) and obtained approval of work products",
+    "technicalArchitecture": "- New web application built with Spring MVC, Spring Webflow, Java Server Faces (JSF), and Hibernate",
+    "technologiesUsed": [
+      "Spring MVC",
+      "Spring Webflow",
+      "Java Server Faces (JSF)",
+      "Hibernate"
+    ],
+    "leadership": "Led a team of 4 development resources through technical architecture design; managed team members' work efforts and quality/completion verification",
+    "challenges": null,
+    "results": null,
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Served as Application Development Cell Lead, directing a 4-person team through technical architecture design for a new Spring MVC/Spring Webflow/JSF/Hibernate web application",
+      "Managed detailed design, unit test planning, and build activities in partnership with Project Manager and Application Development Manager"
+    ]
+  },
+  {
+    "slug": "2009-global-media-market-research-company",
+    "year": 2009,
+    "dates": "March, 2009 - January, 2010",
+    "role": "Program/Project Management Lead (Composite Project Manager)",
+    "industry": "Media & Market Research / Consumer Data Analytics",
+    "clientDescriptor": "Global media & market research company",
+    "businessProblem": null,
+    "responsibilities": "- Led a 10 person onshore and 10 person offshore Composite team at the Global media & market research company\n- Used agile methodologies to deliver complicated technical requirements on time\n- Managed a project plan through several releases\n- Reported status to product leadership on a daily basis",
+    "technicalArchitecture": null,
+    "technologiesUsed": [
+      "Agile methodologies"
+    ],
+    "leadership": "Led a combined 20-person onshore/offshore Composite team; managed a multi-release project plan and reported daily to product leadership",
+    "challenges": "Delivering complicated technical requirements on time across a large onshore/offshore team spanning multiple releases",
+    "results": "Delivered complicated technical requirements on time across several releases",
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Led a 20-person onshore/offshore Composite team at the Global media & market research company using Agile methodologies, delivering complex technical requirements on time across multiple releases",
+      "Managed the project plan and provided daily status reporting to product leadership throughout the engagement"
+    ]
+  },
+  {
+    "slug": "2008-hospitality-company",
+    "year": 2008,
+    "dates": "June, 2008 - December, 2008",
+    "role": null,
+    "industry": "Hospitality",
+    "clientDescriptor": "Fortune 500 hospitality company",
+    "businessProblem": "the Fortune 500 hospitality company needed an update to the hotel search results on the client's website, including an asynchronous (Ajax) display of hotel information and an improved property-dimension search solution.",
+    "responsibilities": "- Led the technical team that implemented an update to the hotel search results of the client's website\n- Designed and received approval from the client's architect for an Ajax implementation used to display hotel information asynchronously\n- Managed and led 3 developers through the build and test phase of the project\n- Worked with the project manager to develop a schedule for the project\n- Collaborated with the business unit to define requirements in the component specification and use case documents\n- Planned and defined a schedule to translate any new content for this release\n- Communicated the status of the build phase of the project to all stakeholders on a weekly basis\n- Conducted detail design and code review meetings with the client's SME and technical architect to reach sign-off during the build phase\n- Managed the client architect and Endeca consultant to drive out a searching solution for the Fortune 500 hospitality company's property dimensions\n- Installed and initiated Cruise Control (continuous build process) during the build phase to eliminate defects quickly and give stakeholders an up-to-date view of project status",
+    "technicalArchitecture": "- Ajax-based asynchronous hotel information display\n- Endeca-based search solution for property dimensions\n- Cruise Control continuous integration/build process",
+    "technologiesUsed": [
+      "Ajax",
+      "JavaScript",
+      "Endeca",
+      "Cruise Control (CI)"
+    ],
+    "leadership": "Led the technical team and managed 3 developers through build and test; managed the client architect and Endeca consultant relationship",
+    "challenges": null,
+    "results": "Achieved client architect and SME sign-off on design during the build phase; continuous build process reduced defect turnaround time",
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Led a 3-developer technical team delivering an Ajax-based asynchronous hotel search results update for the Fortune 500 hospitality company, achieving client architect sign-off",
+      "Introduced continuous integration (Cruise Control) to the build phase, accelerating defect detection and improving stakeholder visibility into project status"
+    ]
+  },
+  {
+    "slug": "2007-hospitality-company",
+    "year": 2007,
+    "dates": "July, 2007 - June, 2008",
+    "role": null,
+    "industry": "Hospitality",
+    "clientDescriptor": "Fortune 500 hospitality company",
+    "businessProblem": "the Fortune 500 hospitality company needed to translate core functionality (currently only in English) into German, Spanish, and Simplified Chinese, integrating with a third-party translation vendor.",
+    "responsibilities": "- Phase 1 focused on German; Phase 2 focused on Spanish and Chinese (Simplified)\n- Integrated a web service client into the Fortune 500 hospitality company Globalization Project that communicated to a third party translation vendor\n- Implemented message driven beans to poll JMS queues in order to process messages sent through the web service client\n- Translated XSDs to Java classes using JAXB and XMLBeans in order to marshal and un-marshal XML used by external the Fortune 500 hospitality company components\n- Responsible for the build process using Ant scripts\n- Worked and coordinated test plans with multiple teams within the Fortune 500 hospitality company organization\n- Wrote and implemented detail design documents that fit the client's requirements\n- Delivered all critical workflow components and test activities on time\n- Designed and created an error handling mechanism to alert production support so they could respond to all fatal errors\n- Organized deployment plans for future releases with the client\n- Organized and planned the transition of the Translation Mediator to the client\n- Moved to a technical lead role in the second phase of the project and led 5 resources through build, testing, and delivery phase\n- Planned and organized performance testing with the client in order to get sign-off into the production environment\n- Ran weekly status meetings with development resources to resolve tickets opened during the testing phase\n- Worked with the project plan and project manager to meet all milestones through the lifespan of the project",
+    "technicalArchitecture": "- Web service client integration with third-party translation vendor\n- Message-driven beans (MDBs) polling JMS queues for asynchronous message processing\n- JAXB and XMLBeans for XSD-to-Java class translation (XML marshal/un-marshal)\n- Ant-based build process\n- Custom error handling mechanism alerting production support on fatal errors",
+    "technologiesUsed": [
+      "Java",
+      "JMS (message driven beans)",
+      "JAXB",
+      "XMLBeans",
+      "XSD/XML",
+      "Ant"
+    ],
+    "leadership": "Moved to a technical lead role in Phase 2, leading 5 resources through build, testing, and delivery; ran weekly status meetings with development resources",
+    "challenges": "Coordinating test plans and workflow delivery across multiple teams within the Fortune 500 hospitality company organization while meeting critical path milestones",
+    "results": "Delivered all critical workflow components and test activities on time; obtained client sign-off for production deployment via organized performance testing",
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Led delivery of the Fortune 500 hospitality company Globalization Project, integrating a JMS/MDB-based web service client with a third-party translation vendor to localize the site into German, Spanish, and Simplified Chinese",
+      "Promoted to technical lead in Phase 2, leading 5 resources through build, test, and delivery, and organizing client performance testing and production sign-off"
+    ]
+  },
+  {
+    "slug": "2006-state-government-agency",
+    "year": 2006,
+    "dates": "March, 2006 - June, 2007",
+    "role": null,
+    "industry": "Government / Public Sector - Health & Human Services",
+    "clientDescriptor": "State government agency",
+    "businessProblem": null,
+    "responsibilities": "- Worked and resolved several defects and modifications using the Capability Maturity Model (CMM)\n- Developed with Java and SQL on a daily basis\n- Worked directly with the client to answer questions and resolve issues\n- Completed detail design for maintenance and modification initiated by the client\n- Setup Python scripts to monitor errors within the system on a daily basis",
+    "technicalArchitecture": null,
+    "technologiesUsed": [
+      "Java",
+      "SQL",
+      "Python",
+      "Capability Maturity Model (CMM)"
+    ],
+    "leadership": null,
+    "challenges": null,
+    "results": null,
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Resolved system defects and delivered maintenance modifications for a state welfare eligibility system under CMM-governed processes, using Java and SQL",
+      "Automated daily error monitoring with Python scripts, working directly with the client to triage and resolve issues"
+    ]
+  },
+  {
+    "slug": "2004-online-travel-auction-startup",
+    "year": 2004,
+    "dates": "June, 2004 - March, 2005",
+    "role": null,
+    "industry": "Travel / Online Travel Booking",
+    "clientDescriptor": "Online travel auction startup",
+    "businessProblem": null,
+    "responsibilities": "- Built a cruise reservation client that communicated through web services using Axis to a third party travel partner\n- Created the user interface using Struts, HTML and JavaScript to communicate to a customer base\n- Developed and incorporated Hibernate mappings to create a persistence layer to an Oracle database\n- Used JAXB to bind business objects to XML\n- Wrote Python scripts to load pricing files from multiple cruise lines into an Oracle database",
+    "technicalArchitecture": "- Web services client (Apache Axis) integrating with a third-party travel partner\n- Struts-based front end (HTML/JavaScript)\n- Hibernate persistence layer over an Oracle database\n- JAXB for XML data binding",
+    "technologiesUsed": [
+      "Java",
+      "Apache Axis (web services)",
+      "Struts",
+      "HTML",
+      "JavaScript",
+      "Hibernate",
+      "Oracle Database",
+      "JAXB",
+      "Python"
+    ],
+    "leadership": null,
+    "challenges": null,
+    "results": null,
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Built a cruise reservation web application (Struts, Hibernate, Oracle) integrating via Apache Axis web services with a third-party travel partner",
+      "Wrote Python scripts to automate loading of multi-cruise-line pricing files into an Oracle database"
+    ]
+  },
+  {
+    "slug": "2003-global-top-tier-bank",
+    "year": 2003,
+    "dates": "March, 2003 - February, 2004",
+    "role": null,
+    "industry": "Banking / Financial Services",
+    "clientDescriptor": "Global top-tier bank",
+    "businessProblem": "The National Lockbox web application, which supports hundreds of banking customers daily, needed enhancements including a user-configurable email notification interface.",
+    "responsibilities": "- Developed enhancements to the National Lockbox web application using Servlets, Java Beans, SQL, JavaScript and HTML, which supports hundreds of banking customers on a daily basis\n- Incorporated an interface to allow users to enter their notification criteria based upon which they will receive emails (reported zero flaws since deployment)\n- Installed and configured iPlanet web server in development and QA environments for the National Lockbox web application\n- Collaborated with the Business group to refine requirements for this development project\n- Worked with the QA group to resolve issues during the testing phase of the software development life cycle\n- Wrote multiple backend Java and Unix shell script programs to monitor the performance for the National Lockbox web application\n- Planned, created and executed Loadrunner and WinRunner test scripts\n- Instituted automated system for compiling and deploying code to development, test and production environments using ANT\n- Participated in the creation and peer review of CMM documents for software design",
+    "technicalArchitecture": "- Java web application (Servlets, Java Beans) with SQL backend\n- iPlanet web server (installed/configured for dev and QA)\n- Backend Java and Unix shell scripts for performance monitoring\n- ANT-based automated build/deploy pipeline across dev, test, and production",
+    "technologiesUsed": [
+      "Java (Servlets, Java Beans)",
+      "SQL",
+      "JavaScript",
+      "HTML",
+      "iPlanet web server",
+      "Unix Shell Scripting",
+      "ANT",
+      "Loadrunner",
+      "WinRunner",
+      "Capability Maturity Model (CMM)"
+    ],
+    "leadership": null,
+    "challenges": null,
+    "results": "Shipped a user notification-criteria/email enhancement that reported zero flaws since deployment; supports hundreds of banking customers daily",
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Delivered a user-configurable email notification enhancement to the National Lockbox web application (Servlets, Java Beans, SQL, JavaScript) supporting hundreds of banking customers daily, with zero flaws reported since deployment",
+      "Instituted an automated ANT-based build/deploy pipeline across development, test, and production environments, and authored Loadrunner/WinRunner performance and load test scripts"
+    ]
+  },
+  {
+    "slug": "2002-global-top-tier-bank",
+    "year": 2002,
+    "dates": "September, 2002 - February, 2003",
+    "role": null,
+    "industry": "Banking / Financial Services",
+    "clientDescriptor": "Global top-tier bank",
+    "businessProblem": null,
+    "responsibilities": "- Migrated a J2EE web application to run on a CDROM using a mySQL database and a Tomcat web server\n- Collaborated with the QA group to resolve issues during the testing phase of the software development life cycle",
+    "technicalArchitecture": "- J2EE web application repackaged to run from a CDROM\n- MySQL database\n- Tomcat web server",
+    "technologiesUsed": [
+      "J2EE",
+      "MySQL",
+      "Apache Tomcat"
+    ],
+    "leadership": null,
+    "challenges": null,
+    "results": null,
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Migrated a J2EE banking web application to run standalone from a CDROM using MySQL and Tomcat"
+    ]
+  },
+  {
+    "slug": "2002-global-top-tier-bank-2",
+    "year": 2002,
+    "dates": "February, 2002 - August, 2002",
+    "role": null,
+    "industry": "Banking / Financial Services (project delivered for the State of New York's tax processing system via the Global top-tier bank)",
+    "clientDescriptor": "Global top-tier bank",
+    "businessProblem": "The State of New York needed an enterprise system to process incoming checks and invoices for its tax system daily.",
+    "responsibilities": "- Wrote a multi-threaded application that used JAXB to bind XML files to Java objects that were fed into several Oracle databases for the state of New York's tax system\n- Collaborated with over 20 developers on a tight time schedule to deliver an enterprise product to the client that is used daily to process the state of New York's incoming checks and invoices",
+    "technicalArchitecture": "- Multi-threaded Java application\n- JAXB used for XML-to-Java object binding\n- Multiple Oracle databases as data destinations",
+    "technologiesUsed": [
+      "Java (multi-threading)",
+      "JAXB",
+      "Oracle Database",
+      "XML"
+    ],
+    "leadership": null,
+    "challenges": "Tight time schedule for delivery of an enterprise product involving coordination across 20+ developers",
+    "results": "Delivered an enterprise product used daily to process the State of New York's incoming checks and invoices",
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Built a multi-threaded Java application using JAXB to bind XML data into multiple Oracle databases, delivered on a tight schedule in collaboration with 20+ developers, supporting daily processing of New York State tax checks and invoices"
+    ]
+  },
+  {
+    "slug": "2001-global-top-tier-bank",
+    "year": 2001,
+    "dates": "October, 2001 - February, 2002",
+    "role": null,
+    "industry": "Banking / Financial Services",
+    "clientDescriptor": "Global top-tier bank",
+    "businessProblem": "The existing Java web application needed to be converted to handle international banking customers (global lockbox processing).",
+    "responsibilities": "- Converted a Java web application to handle international banking customers using Servlets and JDBC\n- Developed JavaScript and HTML code to validate and display user functionality\n- Collaborated with the QA group to resolve issues during the testing phase of the software development life cycle",
+    "technicalArchitecture": "- Java web application using Servlets and JDBC for data access\n- Client-side validation/display via JavaScript and HTML",
+    "technologiesUsed": [
+      "Java",
+      "Servlets",
+      "JDBC",
+      "JavaScript",
+      "HTML"
+    ],
+    "leadership": null,
+    "challenges": null,
+    "results": null,
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Converted a Java Servlet/JDBC banking web application to support international customers, adding JavaScript/HTML validation and display functionality"
+    ]
+  },
+  {
+    "slug": "2001-enterprise-supply-chain-software-company",
+    "year": 2001,
+    "dates": "June, 2001 - September, 2001",
+    "role": null,
+    "industry": "Supply Chain Management Software / Enterprise Software (inferred from client name and project title \"Supply Chain Enterprise Web Application\")",
+    "clientDescriptor": "Enterprise supply-chain software company",
+    "businessProblem": null,
+    "responsibilities": "- Developed JSPs and Java Servlets that communicated with EJBs using Weblogic\n- Planned and developed Facade pattern to encapsulate parts of the application\n- Responsible for leading integration test effort for rollout of the J2EE application\n- Used OOD (Object-Oriented Design) to help develop front-end application to run more efficiently\n- Supported testing by resolving bugs found during testing phase\n- Worked with an Oracle database to store and view application specific data\n- Modified and used an Ant build script to compile and deploy the enterprise web application",
+    "technicalArchitecture": "- J2EE web application: JSPs and Java Servlets communicating with EJBs on Weblogic\n- Facade design pattern used to encapsulate application components\n- Oracle database for persistence",
+    "technologiesUsed": [
+      "JSP",
+      "Java Servlets",
+      "EJB",
+      "BEA Weblogic",
+      "Oracle Database",
+      "Ant",
+      "Object-Oriented Design (OOD)",
+      "Facade design pattern"
+    ],
+    "leadership": "Led the integration test effort for the rollout of the J2EE application",
+    "challenges": null,
+    "results": null,
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Led the integration test effort for the rollout of a J2EE supply chain enterprise web application built on JSP, Servlets, EJB, and Weblogic",
+      "Designed and implemented a Facade pattern to encapsulate application complexity, improving front-end efficiency via Object-Oriented Design"
+    ]
+  },
+  {
+    "slug": "2000-global-transportation-company-client-of-an-it-consulting-firm",
+    "year": 2000,
+    "dates": "February, 2000 - June, 2001",
+    "role": null,
+    "industry": "Transportation / Logistics (client described as \"a global transportation company based in Brazil\")",
+    "clientDescriptor": "Global transportation company (client of an IT consulting firm)",
+    "businessProblem": "Client, a global transportation company based in Brazil, needed a JSP/Servlet front-end application with EJBs, and a baseline technical architecture document for their technical staff.",
+    "responsibilities": "- Worked with a global transportation company based in Brazil to develop and deploy a JSP and Servlet front-end application with EJBs\n- Developed an Ant script to deploy the J2EE application\n- Worked to develop a front-end architecture modeled after Sun's \"Service to Workers\" J2EE pattern\n- Authored a technical architectural document which was used as a baseline document for technical staff\n- Used UML guidelines to illustrate the web application's architecture to several clients\n- Collaborated with the QA group to resolve issues during the testing phase of the software development life cycle\n- Installed and configured BEA Weblogic in a development environment to execute the enterprise web application",
+    "technicalArchitecture": "- J2EE application using JSP and Servlets with EJBs\n- Front-end architecture modeled after Sun's \"Service to Workers\" J2EE pattern\n- Deployed on BEA Weblogic",
+    "technologiesUsed": [
+      "JSP",
+      "Java Servlets",
+      "EJB",
+      "Ant",
+      "BEA Weblogic",
+      "UML"
+    ],
+    "leadership": null,
+    "challenges": null,
+    "results": null,
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Authored a technical architecture document (using UML) that served as the baseline reference for a global transportation client's technical staff",
+      "Developed and deployed a J2EE (JSP/Servlet/EJB) front-end application modeled after Sun's \"Service to Workers\" pattern, including Ant-based deployment scripting"
+    ]
+  },
+  {
+    "slug": "1999-early-stage-e-commerce-startup",
+    "year": 1999,
+    "dates": "May, 1999 - December, 1999",
+    "role": null,
+    "industry": "E-Commerce / Retail (inferred from client name and project description; not explicitly labeled in source document)",
+    "clientDescriptor": "Early-stage e-commerce startup",
+    "businessProblem": null,
+    "responsibilities": "- Developed HTML and JavaScript code to validate and display business requirements for the e-commerce application\n- Assisted business unit in the visual design of the web-site\n- Collaborated with marketing group to plan and develop product descriptions for the e-commerce web-site",
+    "technicalArchitecture": null,
+    "technologiesUsed": [
+      "HTML",
+      "JavaScript"
+    ],
+    "leadership": null,
+    "challenges": null,
+    "results": null,
+    "lessonsLearned": null,
+    "resumeBulletPoints": [
+      "Developed HTML and JavaScript validation and display logic for an e-commerce web application, collaborating with business and marketing stakeholders on site design and product content"
+    ]
+  }
+]

@@ -1,0 +1,78 @@
+name: Build and Deploy (Dev)
+
+on:
+  push:
+    branches: [develop]
+  workflow_dispatch: {}
+
+env:
+  DEPLOY_PATH: /opt/portfolio-web-dev
+  HOST_PORT: 8080
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Set up SSH
+        env:
+          SSH_KEY: ${{ secrets.LINODE_SSH_KEY }}
+          SSH_HOST: ${{ secrets.LINODE_HOST }}
+        run: |
+          mkdir -p ~/.ssh
+          printf '%s\n' "$SSH_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -H "$SSH_HOST" >> ~/.ssh/known_hosts
+
+      - name: Verify build before touching the server
+        run: |
+          npm ci
+          npm run build
+        env:
+          NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL_DEV }}
+
+      - name: Ensure Docker and rsync are installed on the server
+        env:
+          SSH_USER: ${{ secrets.LINODE_USER }}
+          SSH_HOST: ${{ secrets.LINODE_HOST }}
+        run: |
+          ssh -i ~/.ssh/deploy_key "$SSH_USER@$SSH_HOST" '
+            set -e
+            command -v docker >/dev/null || curl -fsSL https://get.docker.com | sh
+            command -v rsync >/dev/null || (apt-get update -y && apt-get install -y rsync)
+            mkdir -p '"$DEPLOY_PATH"'
+          '
+
+      - name: Sync application files to the server
+        env:
+          SSH_USER: ${{ secrets.LINODE_USER }}
+          SSH_HOST: ${{ secrets.LINODE_HOST }}
+        run: |
+          rsync -az --delete \
+            --exclude '.git' \
+            --exclude 'node_modules' \
+            --exclude '.next' \
+            -e "ssh -i ~/.ssh/deploy_key" \
+            ./ "$SSH_USER@$SSH_HOST:$DEPLOY_PATH/"
+
+      - name: Build and restart the app
+        env:
+          SSH_USER: ${{ secrets.LINODE_USER }}
+          SSH_HOST: ${{ secrets.LINODE_HOST }}
+          NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL_DEV }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          ssh -i ~/.ssh/deploy_key "$SSH_USER@$SSH_HOST" \
+            "cd $DEPLOY_PATH && HOST_PORT='$HOST_PORT' NEXT_PUBLIC_SITE_URL='$NEXT_PUBLIC_SITE_URL' ANTHROPIC_API_KEY='$ANTHROPIC_API_KEY' docker compose up --build -d"
+
+      - name: Smoke test
+        env:
+          SSH_HOST: ${{ secrets.LINODE_HOST }}
+        run: |
+          sleep 5
+          curl -fsS "http://$SSH_HOST:$HOST_PORT" -o /dev/null && echo "Dev site responded OK"

@@ -1,0 +1,715 @@
+{
+  "skills": [
+    {
+      "name": "AI-Assisted Development (AI Coding Agents: GitHub Copilot, Claude Code)",
+      "strengthLevel": null,
+      "strengthLabel": null,
+      "yearsUsed": "2025 - Present",
+      "summary": "Distinct from [[../accomplishments/ai]] (which tracks the source resume's claim of \"AI/ML experimentation and deployment\" — i.e., building/deploying machine learning models, still unsupported by any project evidence): this skill is about using AI coding agents as a development and analysis accelerant. Two different tools across two real engagements, with a clear step-up in sophistication: **GitHub Copilot** for an individually-driven frontend build (the US federal government agency, 2025), then **Claude Code** for a formalized, team-rolled-out framework spanning both analysis (single-agent, detailed prompting) and build (multi-agent workflows) phases (the US federal government agency, 2025-present) — plus the leadership dimension of establishing a reusable framework and rolling it out across a team, not just using the tool solo."
+    },
+    {
+      "name": "ArcGIS (ArcGIS Enterprise & ArcGIS Server)",
+      "strengthLevel": null,
+      "strengthLabel": null,
+      "yearsUsed": "2023 - 2025",
+      "summary": "The source resume's skills table (2022) lists \"ArcGIS API\" and \"ESRI ArcGIS\" at 2-Intermediate proficiency with zero supporting project evidence at the time. That gap is now closed by a substantial, multi-year hands-on engagement: configuring ArcGIS Enterprise, publishing map features, and integrating ArcGIS Server with both a modernized PostgreSQL/PostGIS backend and multiple consuming applications (ServiceNow, then a custom-built frontend)."
+    },
+    {
+      "name": "AWS (Amazon Web Services)",
+      "strengthLevel": 3,
+      "strengthLabel": "Advanced",
+      "yearsUsed": "2016 - 2020, 2025 - Present (per projects citing AWS explicitly; source resume covers a 25+ year career overall)",
+      "summary": "Used AWS primarily for API architecture (API Gateway + Lambda), serverless application design, and standing up new cloud subscriptions/environments with supporting DevOps pipelines. Also supported AWS-hosted custom enterprise applications (Master Data Management, security, configuration) for a large energy-sector client. Currently leading a legacy-to-AWS modernization for a federal weather/environmental agency (the US federal government agency), the most senior/architecture-defining AWS engagement to date. Holds an AWS Certified Cloud Practitioner certification (2020)."
+    },
+    {
+      "name": "Cloud (Cross-Provider: AWS, Azure, GCP)",
+      "strengthLevel": null,
+      "strengthLabel": null,
+      "yearsUsed": "2016 - 2020, 2025 - Present",
+      "summary": "Broad multi-cloud experience in two waves: 2016-2020 (most heavily AWS — API Gateway, Lambda, EC2, subscriptions/environment stand-up — plus a GCP-centric serverless/microservices engagement and a role explicitly scoped as \"Cloud Platform Architect\" spanning public, private, and hybrid cloud), and 2025-present (leading a legacy-to-AWS modernization for a federal agency, the most senior cloud-architecture-defining role to date). Holds an AWS Certified Cloud Practitioner certification (2020). The source resume's professional summary explicitly cites \"cloud-native services (AWS, Azure)\" as a core strength."
+    },
+    {
+      "name": "DevOps",
+      "strengthLevel": 3,
+      "strengthLabel": "Advanced",
+      "yearsUsed": "2018 - 2023, 2025 - Present",
+      "summary": "DevOps/CI-CD practice has been a recurring thread from early automated build/deploy pipelines (ANT, Cruise Control) through modern CI/CD pipeline design and tuning on Java/JavaScript Agile teams, cloud subscription/pipeline stand-up, and containerized serverless deployment pipelines."
+    },
+    {
+      "name": "Docker",
+      "strengthLevel": 1,
+      "strengthLabel": "Beginner",
+      "yearsUsed": "2020 - 2023",
+      "summary": "Docker experience is documented on two engagements in the 2020-2023 period: hands-on production/development Docker usage in a Spring Boot serverless microservices platform, and a the Fortune 100 bank decisioning platform where Docker/CI/CD tooling was part of the desired skill set."
+    },
+    {
+      "name": "Enterprise Architecture",
+      "strengthLevel": 5,
+      "strengthLabel": "Master",
+      "yearsUsed": "2001 - 2023 (architecture-titled roles begin around 2007 and continue through the most recent engagements)",
+      "summary": "Repeated engagement in enterprise-level architecture assessments, integration blueprints, and technology strategy across banking, pharma, insurance, retail, and technology clients. Frequently served as the technical lead defining target-state architecture, gap analysis versus current state, and architecture review board approval processes."
+    },
+    {
+      "name": "Java",
+      "strengthLevel": 4,
+      "strengthLabel": "Expert",
+      "yearsUsed": "1999 - 2023 (core language across nearly the entire career per source resume)",
+      "summary": "Java has been the primary backend language across the majority of engagements over 25 years — from J2EE web applications (Servlets, JSP, EJB) in the early 2000s, through Spring/Hibernate-based enterprise applications, to REST API platforms (CXF, Apache Camel) at the Fortune 500 hospitality company and modern Spring Boot microservices. Deep, sustained experience spans full application lifecycle: architecture, design, build, integration, and testing."
+    },
+    {
+      "name": "JavaScript",
+      "strengthLevel": 3,
+      "strengthLabel": "Advanced",
+      "yearsUsed": "1999 - 2023",
+      "summary": "JavaScript has been used consistently across the entire career, from early e-commerce and banking web application validation/display logic (1999-2004) through Ajax-based asynchronous UI work (2008) to modern full-stack development (2023). The professional summary lists JavaScript as a core strength alongside Java and Python."
+    },
+    {
+      "name": "Kotlin",
+      "strengthLevel": 1,
+      "strengthLabel": "Beginner",
+      "yearsUsed": "2018 - 2019",
+      "summary": "Single documented engagement using Kotlin, building a function/event-driven microservices platform for a public transit client (the Provincial government transit agency)."
+    },
+    {
+      "name": "Kubernetes",
+      "strengthLevel": null,
+      "strengthLabel": null,
+      "yearsUsed": "2025 - Present",
+      "summary": "The source resume's skills table (2022) rated Kubernetes at 1-Beginner with zero supporting project evidence at the time. That gap is now closed: Kubernetes is one of the core components of the target-state architecture Russell defined for the US federal government agency legacy application modernization, used for container orchestration alongside AWS-native services."
+    },
+    {
+      "name": "Microservices",
+      "strengthLevel": null,
+      "strengthLabel": null,
+      "yearsUsed": "2018 - 2023",
+      "summary": "Consistent microservices architecture experience over a ~5 year span, spanning function/event-driven platforms (Kotlin, the Provincial government transit agency), Spring Boot/Docker/Kafka-based serverless microservices (Accenture internal the Internal enterprise platform), a utility-sector microservices platform (the Fortune 500 utility company NOVA2), and a financial services decisioning microservices platform (the Fortune 100 bank)."
+    },
+    {
+      "name": "Node.js",
+      "strengthLevel": 4,
+      "strengthLabel": "Expert",
+      "yearsUsed": null,
+      "summary": "Node.js is rated at a high self-assessed proficiency level in the source resume's skills table (4-Expert), and the specialization section lists \"JavaScript Back End Engineering\" under \"Building\" (an area of active skill development, distinct from \"Specialized\"). No individual project description in the \"PRIOR WORK EXPERIENCE\" section explicitly names Node.js, so specific engagement evidence is currently TBD."
+    },
+    {
+      "name": "Oracle (Database & PL/SQL)",
+      "strengthLevel": 5,
+      "strengthLabel": "Master",
+      "yearsUsed": "2001 - 2025",
+      "summary": "Oracle has been a consistent relational database platform across nearly two decades of engagements, spanning direct persistence layers (Hibernate-mapped), multi-database data-loading pipelines, and PL/SQL stored-procedure-based enterprise applications."
+    },
+    {
+      "name": "PostGIS",
+      "strengthLevel": null,
+      "strengthLabel": null,
+      "yearsUsed": "2023 - 2025",
+      "summary": "PostGIS was the specific extension used to give the new PostgreSQL database (replacing a legacy Oracle system) the geospatial capability needed to store and serve the US federal government agency recreation site land-unit data, in conjunction with ArcGIS Server."
+    },
+    {
+      "name": "PostgreSQL",
+      "strengthLevel": 5,
+      "strengthLabel": "Master",
+      "yearsUsed": "2023 - 2025",
+      "summary": "PostgreSQL is rated at the highest self-assessed proficiency level in the source resume's skills table (dated 2022), alongside Oracle — at the time that resume was generated, no project evidence supported the rating. That gap has since been closed directly by Russell: the US federal government agency engagement (2023-2025) is now a real, substantial PostgreSQL project — a full migration off a legacy Oracle system, a schema redesign for performance, and GIS-specific extension work via PostGIS integrated with ArcGIS Server."
+    },
+    {
+      "name": "Python",
+      "strengthLevel": 5,
+      "strengthLabel": "Master",
+      "yearsUsed": "2004 - 2006 (explicit early-career project evidence); self-assessed at Master level in the 2022 skills profile; confirmed current, hands-on use since October 2025 on the US federal government agency engagement — closing the gap the 2022 self-assessment implied but earlier project evidence didn't support.",
+      "summary": "Early career: data-loading automation (pricing file ingestion into Oracle) and operational monitoring/alerting scripts, as a scripting layer alongside larger Java/Oracle applications. Current (the US federal government agency, 2025-present): Python is now central rather than peripheral — reading and reverse-engineering a legacy Python codebase to recover undocumented behavior across all 10 in-scope applications, and (on the 2 applications that have reached implementation) working with Claude Code to modernize legacy Java/C++ code. The source resume's skills table rating (5-Master) is now backed by current, substantial evidence, not just early-career scripting and self-assessment."
+    },
+    {
+      "name": "REST APIs",
+      "strengthLevel": 2,
+      "strengthLabel": "Intermediate",
+      "yearsUsed": "2013 - 2020",
+      "summary": "Extensive, sustained REST API leadership experience — repeatedly served as \"API Lead/Architect\" on the Fortune 500 hospitality company's multi-year REST API platform initiative (2013-2018), building custom Java REST services (CXF, Apache Camel) on top of legacy SOAP systems. Also defined cloud-native API architectures (AWS API Gateway + Lambda) for the Fortune 500 cruise line, and built REST APIs in Spring Boot microservice contexts more recently."
+    },
+    {
+      "name": "ServiceNow",
+      "strengthLevel": null,
+      "strengthLabel": null,
+      "yearsUsed": "2023 - 2025 (mid-engagement; superseded toward the end by a custom frontend — see Notes)",
+      "summary": "ServiceNow integration work on the US federal government agency engagement: making ArcGIS map data available for display within ServiceNow, as an intermediate step in the platform's evolution before the client requested a fully custom frontend map application in the engagement's final phase."
+    },
+    {
+      "name": "Spring Framework (Spring, Spring Boot, Spring MVC, Spring Webflow)",
+      "strengthLevel": 1,
+      "strengthLabel": "Beginner",
+      "yearsUsed": "2009 - 2023",
+      "summary": "Spring-family frameworks used across three distinct eras of the career: early Spring MVC/Webflow for a fraud detection web application (2009), Spring/Hibernate for a the Global media & market research company SOA custom application (2010-2011), and modern Spring Boot for cloud-native serverless microservices (2020)."
+    },
+    {
+      "name": "Terraform",
+      "strengthLevel": null,
+      "strengthLabel": null,
+      "yearsUsed": "2025 - Present",
+      "summary": "First documented Terraform evidence in the career history — used as the infrastructure-as-code tool for provisioning AWS infrastructure (SNS, S3, EventBridge, EC2, Kubernetes) during the US federal government agency legacy application modernization, alongside GitLab CI/CD."
+    }
+  ],
+  "projects": [
+    {
+      "slug": "2025-us-federal-government-agency",
+      "year": 2025,
+      "role": "Application Architect",
+      "industry": "Government / Federal Public Sector — Scientific / Environmental (Weather & Atmospheric Data)",
+      "clientDescriptor": "US federal government agency",
+      "technologiesUsed": [
+        "AWS: SNS, S3, EventBridge, EC2",
+        "Kubernetes",
+        "Python (primary legacy application language; used for legacy-code analysis; the 2 pilot applications now in implementation are legacy Java/C++ being modernized with Claude Code's help)",
+        "Unidata LDM (legacy data ingestion/distribution system being integrated with/migrated away from)",
+        "Terraform",
+        "GitLab CI/CD",
+        "Claude Code (used for legacy-code analysis/reverse-engineering in Phase 1, and for implementation on the 2 pilot applications in Phase 2)"
+      ],
+      "resultsSummary": "Delivered the Phase 1 architecture assessment (10 legacy applications) on time, roughly 50% faster than a typical/expected manual assessment timeline for comparable scope, using a Claude-Code-based analysis framework combined with hands-on Python code review. Defined the future-state AWS architecture and technology stack for all 10 applications. In Phase 2, 2 of the 10 legacy Java/C++ applications"
+    },
+    {
+      "slug": "2023-us-federal-government-agency",
+      "year": 2023,
+      "role": "Application Architect",
+      "industry": "Government / Federal Public Sector — Natural Resources / Land Management",
+      "clientDescriptor": "US federal government agency",
+      "technologiesUsed": [
+        "Oracle Database (legacy)",
+        "PostgreSQL",
+        "PostGIS",
+        "ArcGIS Enterprise",
+        "ArcGIS Server (configuration, map feature publishing)",
+        "ServiceNow (integration)",
+        "GitHub Copilot",
+        "Modern frontend framework (specific framework TBD)"
+      ],
+      "resultsSummary": "Successfully migrated recreation site data from Oracle to PostgreSQL/PostGIS with a redesigned, more performant schema, and integrated the new database with ArcGIS Server. Delivered a proof-of-concept custom frontend application (recreation site inventory + survey ticketing system) integrated with PostgreSQL and ArcGIS, built with GitHub Copilot assistance. The client ultimately did not proceed pa"
+    },
+    {
+      "slug": "2023-national-insurance-carrier",
+      "year": 2023,
+      "role": "Application Architect (TMC App Mod: Ph 1 Discovery, project ID 9940401629)",
+      "industry": "Insurance (Property & Casualty)",
+      "clientDescriptor": "National insurance carrier",
+      "technologiesUsed": [
+        "Java",
+        "JavaScript",
+        "CI/CD",
+        "Test-Driven Development (TDD)",
+        "Monitoring tools",
+        "Code scanning tools"
+      ],
+      "resultsSummary": null
+    },
+    {
+      "slug": "2022-bank",
+      "year": 2022,
+      "role": "Application Support Engineer (May 2022 - July 2022) → Application Developer (June 2022 - December 2023)",
+      "industry": "Banking / Financial Services",
+      "clientDescriptor": "Fortune 100 bank",
+      "technologiesUsed": [
+        "APIs / Microservices",
+        "CFT",
+        "Terraform",
+        "Cloud Deploy",
+        "CI/CD",
+        "Jenkins",
+        "Docker"
+      ],
+      "resultsSummary": null
+    },
+    {
+      "slug": "2022-technology-company",
+      "year": 2022,
+      "role": "Integration Architect (WSIG Services IT - eSupport, project ID 9940335480)",
+      "industry": "Technology / IT Hardware & Services",
+      "clientDescriptor": "Fortune 100 technology company",
+      "technologiesUsed": [
+        "API integration",
+        "Enterprise architecture / integration patterns"
+      ],
+      "resultsSummary": null
+    },
+    {
+      "slug": "2020-internal-enterprise-platform",
+      "year": 2020,
+      "role": "Data Platform Engineer",
+      "industry": "Internal Accenture Product Development / Life Sciences",
+      "clientDescriptor": "Internal enterprise platform",
+      "technologiesUsed": [
+        "Spring Boot",
+        "Docker",
+        "CI/CD",
+        "REST APIs",
+        "PubSub",
+        "Kafka",
+        "VueJs / React",
+        "Google Cloud Platform (GCP): Data Flow, HealthCare API, Cloud Functions, Apigee, Redis, Spanner",
+        "Agile/Scrum"
+      ],
+      "resultsSummary": null
+    },
+    {
+      "slug": "2020-healthcare-focused-private-equity-firm",
+      "year": 2020,
+      "role": "Application Developer (MIB Partnership Strategy)",
+      "industry": "Private Equity / Healthcare Investment",
+      "clientDescriptor": "Healthcare-focused private equity firm",
+      "technologiesUsed": [],
+      "resultsSummary": null
+    },
+    {
+      "slug": "2020-utility-company",
+      "year": 2020,
+      "role": "Technology Architect (NOVA2 Microservices)",
+      "industry": "Utilities / Energy",
+      "clientDescriptor": "Fortune 500 utility company",
+      "technologiesUsed": [
+        "Microservices architecture"
+      ],
+      "resultsSummary": null
+    },
+    {
+      "slug": "2019-major-petroleum-refining-company",
+      "year": 2019,
+      "role": "Application Lead (DS.MV.Application Services)",
+      "industry": "Oil & Gas / Energy",
+      "clientDescriptor": "Major petroleum refining company",
+      "technologiesUsed": [
+        ".NET",
+        "SQL",
+        "Oracle Database",
+        "Oracle PL/SQL",
+        "SQL stored procedures",
+        "Amazon Web Services (AWS)"
+      ],
+      "resultsSummary": null
+    },
+    {
+      "slug": "2019-insurance-company",
+      "year": 2019,
+      "role": "Cloud Platform Architect (Agent Digital Marketing Nationwide)",
+      "industry": "Insurance",
+      "clientDescriptor": "Fortune 50 insurance company",
+      "technologiesUsed": [],
+      "resultsSummary": null
+    },
+    {
+      "slug": "2018-healthcare-retail-company",
+      "year": 2018,
+      "role": "Technology Architect (Enterprise IT Adv Assessment PBM 1087074)",
+      "industry": "Healthcare / Retail Pharmacy",
+      "clientDescriptor": "Fortune 10 healthcare & retail company",
+      "technologiesUsed": [],
+      "resultsSummary": "Delivered a completed technology architecture assessment for the client's PBM (Pharmacy Benefit Management) organization"
+    },
+    {
+      "slug": "2018-hospitality-company",
+      "year": 2018,
+      "role": "Technology Architect (Red Hedgehog Venture Const., project ref. 9940259842)",
+      "industry": "Hospitality",
+      "clientDescriptor": "Fortune 500 hospitality company",
+      "technologiesUsed": [
+        "AWS",
+        "Serverless",
+        "DevOps tooling/pipelines"
+      ],
+      "resultsSummary": null
+    },
+    {
+      "slug": "2018-provincial-government-transit-agency",
+      "year": 2018,
+      "role": "Application Architect (the Provincial government transit agency)",
+      "industry": "Government / Public Transit",
+      "clientDescriptor": "Provincial government transit agency",
+      "technologiesUsed": [
+        "Kotlin",
+        "Microservices architecture"
+      ],
+      "resultsSummary": "Delivered a function and event-driven microservice architecture platform"
+    },
+    {
+      "slug": "2017-global-apparel-retail-group",
+      "year": 2017,
+      "role": "Infrastructure Architect (Infrastructure Technical Architect)",
+      "industry": "Retail / Apparel",
+      "clientDescriptor": "Global apparel retail group",
+      "technologiesUsed": [],
+      "resultsSummary": "Reference application increased time-to-delivery for onsite and offshore teams"
+    },
+    {
+      "slug": "2017-hospitality-company",
+      "year": 2017,
+      "role": "Technology Architect (200 AHS IO Run - Washington, D.C. - API Lead/Architect)",
+      "industry": "Hospitality",
+      "clientDescriptor": "Fortune 500 hospitality company",
+      "technologiesUsed": [
+        "Java",
+        "Apache CXF",
+        "Apache Camel",
+        "Jira",
+        "Jenkins",
+        "Git",
+        "Agile"
+      ],
+      "resultsSummary": null
+    },
+    {
+      "slug": "2017-hospitality-company-2",
+      "year": 2017,
+      "role": "Technology Architect (200 IO Run - Washington, D.C. - API Lead/Architect)",
+      "industry": "Hospitality",
+      "clientDescriptor": "Fortune 500 hospitality company",
+      "technologiesUsed": [
+        "Java",
+        "Apache CXF",
+        "Apache Camel",
+        "Jira",
+        "Jenkins",
+        "Git",
+        "Agile"
+      ],
+      "resultsSummary": null
+    },
+    {
+      "slug": "2016-cruise-line",
+      "year": 2016,
+      "role": "Technology Architect (the Fortune 500 cruise line WebSite - Build - Miami)",
+      "industry": "Travel & Hospitality / Cruise Line",
+      "clientDescriptor": "Fortune 500 cruise line",
+      "technologiesUsed": [
+        "AWS API Gateway",
+        "AWS Lambda",
+        "REST APIs"
+      ],
+      "resultsSummary": null
+    },
+    {
+      "slug": "2015-semiconductor-company",
+      "year": 2015,
+      "role": "Technology Architect (Development Lead - Wayne Fuels/the Fortune 50 semiconductor company)",
+      "industry": "Semiconductor / Technology Manufacturing",
+      "clientDescriptor": "Fortune 50 semiconductor company",
+      "technologiesUsed": [
+        "Apigee"
+      ],
+      "resultsSummary": null
+    },
+    {
+      "slug": "2015-hospitality-company",
+      "year": 2015,
+      "role": "Integration Architect",
+      "industry": "Hospitality",
+      "clientDescriptor": "Fortune 500 hospitality company",
+      "technologiesUsed": [
+        "Java",
+        "Apache CXF",
+        "Apache Camel",
+        "Jira",
+        "Jenkins",
+        "Git",
+        "Agile"
+      ],
+      "resultsSummary": null
+    },
+    {
+      "slug": "2015-retail-company",
+      "year": 2015,
+      "role": "Technology Architect (RMS and Custom Applications - US)",
+      "industry": "Retail",
+      "clientDescriptor": "Fortune 100 retail company",
+      "technologiesUsed": [],
+      "resultsSummary": "Architectures presented to the client were approved and executed on, per Russell's recollection"
+    },
+    {
+      "slug": "2014-national-retail-kiosk-company",
+      "year": 2014,
+      "role": "Technology Architect (Video Solution Architect - the National retail kiosk company Phase 0)",
+      "industry": "Retail / Media Kiosk (video rental)",
+      "clientDescriptor": "National retail kiosk company",
+      "technologiesUsed": [],
+      "resultsSummary": "Delivered a gap analysis identifying architecture risk areas relative to the OTT reference architecture and future business/operational goals"
+    },
+    {
+      "slug": "2013-government-sponsored-mortgage-finance-enterprise",
+      "year": 2013,
+      "role": "Delivery Lead (CLM - Change The Bank - Collections Platform Vendor Assessment)",
+      "industry": "Financial Services / Government-Sponsored Enterprise (Mortgage Finance)",
+      "clientDescriptor": "Government-sponsored mortgage finance enterprise",
+      "technologiesUsed": [],
+      "resultsSummary": null
+    },
+    {
+      "slug": "2013-global-top-tier-bank",
+      "year": 2013,
+      "role": "Technology Architect (Card Services)",
+      "industry": "Banking / Financial Services",
+      "clientDescriptor": "Global top-tier bank",
+      "technologiesUsed": [],
+      "resultsSummary": "Delivered a recommended target-state card processor and a gap analysis identifying platforms and applications impacted by the conversion"
+    },
+    {
+      "slug": "2013-hospitality-company",
+      "year": 2013,
+      "role": "Technology Architect (API Gateway - Reservations track)",
+      "industry": "Hospitality",
+      "clientDescriptor": "Fortune 500 hospitality company",
+      "technologiesUsed": [
+        "Java",
+        "Apache Camel",
+        "Apache CXF",
+        "REST",
+        "SOAP",
+        "Jira",
+        "Git"
+      ],
+      "resultsSummary": null
+    },
+    {
+      "slug": "2012-global-asset-management-firm",
+      "year": 2012,
+      "role": "Integration Architect (CISR - Integration Services, Inbound Interfaces)",
+      "industry": "Financial Services / Asset Management",
+      "clientDescriptor": "Global asset management firm",
+      "technologiesUsed": [
+        "Informatica (ETL)"
+      ],
+      "resultsSummary": "Received formal approval of the integration blueprint, interface inventory, and reference architecture from the client's architecture review board"
+    },
+    {
+      "slug": "2011-pharmaceutical-company",
+      "year": 2011,
+      "role": "Integration Architect",
+      "industry": "Pharmaceuticals / Life Sciences",
+      "clientDescriptor": "Fortune 500 pharmaceutical company",
+      "technologiesUsed": [
+        "Java frameworks",
+        "WebLogic",
+        "Oracle Database",
+        "SharePoint",
+        "Content management systems",
+        "Mobile technologies"
+      ],
+      "resultsSummary": null
+    },
+    {
+      "slug": "2010-global-media-market-research-company",
+      "year": 2010,
+      "role": "Integration Architect (SOA Architect)",
+      "industry": "Media & Market Research / Consumer Data Analytics",
+      "clientDescriptor": "Global media & market research company",
+      "technologiesUsed": [
+        "TIBCO",
+        "Adobe Flex",
+        "Oracle Database",
+        "Spring Framework",
+        "Hibernate"
+      ],
+      "resultsSummary": null
+    },
+    {
+      "slug": "2010-global-media-market-research-company-2",
+      "year": 2010,
+      "role": "Program/Project Management Lead",
+      "industry": "Media & Market Research / Consumer Data Analytics",
+      "clientDescriptor": "Global media & market research company",
+      "technologiesUsed": [],
+      "resultsSummary": "Delivered a working data validation framework that verified production data integrity, giving client directors confidence in the accuracy of reports generated for their clients"
+    },
+    {
+      "slug": "2009-payments-technology-company",
+      "year": 2009,
+      "role": "Application Development Cell Lead",
+      "industry": "Financial Technology / Payments",
+      "clientDescriptor": "Fortune 500 payments technology company",
+      "technologiesUsed": [
+        "Spring MVC",
+        "Spring Webflow",
+        "Java Server Faces (JSF)",
+        "Hibernate"
+      ],
+      "resultsSummary": null
+    },
+    {
+      "slug": "2009-global-media-market-research-company",
+      "year": 2009,
+      "role": "Program/Project Management Lead (Composite Project Manager)",
+      "industry": "Media & Market Research / Consumer Data Analytics",
+      "clientDescriptor": "Global media & market research company",
+      "technologiesUsed": [
+        "Agile methodologies"
+      ],
+      "resultsSummary": "Delivered complicated technical requirements on time across several releases"
+    },
+    {
+      "slug": "2008-hospitality-company",
+      "year": 2008,
+      "role": null,
+      "industry": "Hospitality",
+      "clientDescriptor": "Fortune 500 hospitality company",
+      "technologiesUsed": [
+        "Ajax",
+        "JavaScript",
+        "Endeca",
+        "Cruise Control (CI)"
+      ],
+      "resultsSummary": "Achieved client architect and SME sign-off on design during the build phase; continuous build process reduced defect turnaround time"
+    },
+    {
+      "slug": "2007-hospitality-company",
+      "year": 2007,
+      "role": null,
+      "industry": "Hospitality",
+      "clientDescriptor": "Fortune 500 hospitality company",
+      "technologiesUsed": [
+        "Java",
+        "JMS (message driven beans)",
+        "JAXB",
+        "XMLBeans",
+        "XSD/XML",
+        "Ant"
+      ],
+      "resultsSummary": "Delivered all critical workflow components and test activities on time; obtained client sign-off for production deployment via organized performance testing"
+    },
+    {
+      "slug": "2006-state-government-agency",
+      "year": 2006,
+      "role": null,
+      "industry": "Government / Public Sector - Health & Human Services",
+      "clientDescriptor": "State government agency",
+      "technologiesUsed": [
+        "Java",
+        "SQL",
+        "Python",
+        "Capability Maturity Model (CMM)"
+      ],
+      "resultsSummary": null
+    },
+    {
+      "slug": "2004-online-travel-auction-startup",
+      "year": 2004,
+      "role": null,
+      "industry": "Travel / Online Travel Booking",
+      "clientDescriptor": "Online travel auction startup",
+      "technologiesUsed": [
+        "Java",
+        "Apache Axis (web services)",
+        "Struts",
+        "HTML",
+        "JavaScript",
+        "Hibernate",
+        "Oracle Database",
+        "JAXB",
+        "Python"
+      ],
+      "resultsSummary": null
+    },
+    {
+      "slug": "2003-global-top-tier-bank",
+      "year": 2003,
+      "role": null,
+      "industry": "Banking / Financial Services",
+      "clientDescriptor": "Global top-tier bank",
+      "technologiesUsed": [
+        "Java (Servlets, Java Beans)",
+        "SQL",
+        "JavaScript",
+        "HTML",
+        "iPlanet web server",
+        "Unix Shell Scripting",
+        "ANT",
+        "Loadrunner",
+        "WinRunner",
+        "Capability Maturity Model (CMM)"
+      ],
+      "resultsSummary": "Shipped a user notification-criteria/email enhancement that reported zero flaws since deployment; supports hundreds of banking customers daily"
+    },
+    {
+      "slug": "2002-global-top-tier-bank",
+      "year": 2002,
+      "role": null,
+      "industry": "Banking / Financial Services",
+      "clientDescriptor": "Global top-tier bank",
+      "technologiesUsed": [
+        "J2EE",
+        "MySQL",
+        "Apache Tomcat"
+      ],
+      "resultsSummary": null
+    },
+    {
+      "slug": "2002-global-top-tier-bank-2",
+      "year": 2002,
+      "role": null,
+      "industry": "Banking / Financial Services (project delivered for the State of New York's tax processing system via the Global top-tier bank)",
+      "clientDescriptor": "Global top-tier bank",
+      "technologiesUsed": [
+        "Java (multi-threading)",
+        "JAXB",
+        "Oracle Database",
+        "XML"
+      ],
+      "resultsSummary": "Delivered an enterprise product used daily to process the State of New York's incoming checks and invoices"
+    },
+    {
+      "slug": "2001-global-top-tier-bank",
+      "year": 2001,
+      "role": null,
+      "industry": "Banking / Financial Services",
+      "clientDescriptor": "Global top-tier bank",
+      "technologiesUsed": [
+        "Java",
+        "Servlets",
+        "JDBC",
+        "JavaScript",
+        "HTML"
+      ],
+      "resultsSummary": null
+    },
+    {
+      "slug": "2001-enterprise-supply-chain-software-company",
+      "year": 2001,
+      "role": null,
+      "industry": "Supply Chain Management Software / Enterprise Software (inferred from client name and project title \"Supply Chain Enterprise Web Application\")",
+      "clientDescriptor": "Enterprise supply-chain software company",
+      "technologiesUsed": [
+        "JSP",
+        "Java Servlets",
+        "EJB",
+        "BEA Weblogic",
+        "Oracle Database",
+        "Ant",
+        "Object-Oriented Design (OOD)",
+        "Facade design pattern"
+      ],
+      "resultsSummary": null
+    },
+    {
+      "slug": "2000-global-transportation-company-client-of-an-it-consulting-firm",
+      "year": 2000,
+      "role": null,
+      "industry": "Transportation / Logistics (client described as \"a global transportation company based in Brazil\")",
+      "clientDescriptor": "Global transportation company (client of an IT consulting firm)",
+      "technologiesUsed": [
+        "JSP",
+        "Java Servlets",
+        "EJB",
+        "Ant",
+        "BEA Weblogic",
+        "UML"
+      ],
+      "resultsSummary": null
+    },
+    {
+      "slug": "1999-early-stage-e-commerce-startup",
+      "year": 1999,
+      "role": null,
+      "industry": "E-Commerce / Retail (inferred from client name and project description; not explicitly labeled in source document)",
+      "clientDescriptor": "Early-stage e-commerce startup",
+      "technologiesUsed": [
+        "HTML",
+        "JavaScript"
+      ],
+      "resultsSummary": null
+    }
+  ]
+}

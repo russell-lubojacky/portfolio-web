@@ -1,27 +1,19 @@
 # PortfolioWeb
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.2.
+Russell Lubojacky's personal portfolio — a Next.js site pulling real career data from a separate knowledge base ([`career-brain`](../ai-lab/career-brain)): an interactive timeline, honestly-rated skills, 41 anonymized case studies, and leadership/accomplishments. An AI-powered "how do I fit this job?" tool is planned but not yet built — `/fit` is currently a placeholder.
 
-## Development server
+See [`CLAUDE.md`](CLAUDE.md) for architecture and commands, and `/home/rdlubojacky/.claude/plans/sparkling-floating-octopus.md` for the full rebuild plan.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Development
 
-## Code scaffolding
+```bash
+npm install
+npm run dev            # http://localhost:3000
+npm run sync:content   # regenerate content/generated/*.json from career-brain
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Build & run in Docker
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+NEXT_PUBLIC_SITE_URL=https://your-domain docker compose up --build
+```

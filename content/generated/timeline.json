@@ -1,0 +1,330 @@
+[
+  {
+    "slug": "2025-us-federal-government-agency",
+    "year": 2025,
+    "dates": "October, 2025 - Present",
+    "role": "Application Architect",
+    "industry": "Government / Federal Public Sector — Scientific / Environmental (Weather & Atmospheric Data)",
+    "clientDescriptor": "US federal government agency"
+  },
+  {
+    "slug": "2023-us-federal-government-agency",
+    "year": 2023,
+    "dates": "May, 2023 - September, 2025",
+    "role": "Application Architect",
+    "industry": "Government / Federal Public Sector — Natural Resources / Land Management",
+    "clientDescriptor": "US federal government agency"
+  },
+  {
+    "slug": "2023-national-insurance-carrier",
+    "year": 2023,
+    "dates": "February, 2023 - April, 2023",
+    "role": "Application Architect (TMC App Mod: Ph 1 Discovery, project ID 9940401629)",
+    "industry": "Insurance (Property & Casualty)",
+    "clientDescriptor": "National insurance carrier"
+  },
+  {
+    "slug": "2022-bank",
+    "year": 2022,
+    "dates": "May, 2022 - December, 2023 (project ID 11539629, role transitioned partway through)",
+    "role": "Application Support Engineer (May 2022 - July 2022) → Application Developer (June 2022 - December 2023)",
+    "industry": "Banking / Financial Services",
+    "clientDescriptor": "Fortune 100 bank"
+  },
+  {
+    "slug": "2022-technology-company",
+    "year": 2022,
+    "dates": "August, 2022 - December, 2022",
+    "role": "Integration Architect (WSIG Services IT - eSupport, project ID 9940335480)",
+    "industry": "Technology / IT Hardware & Services",
+    "clientDescriptor": "Fortune 100 technology company"
+  },
+  {
+    "slug": "2020-internal-enterprise-platform",
+    "year": 2020,
+    "dates": "July, 2020 - November, 2020",
+    "role": "Data Platform Engineer",
+    "industry": "Internal Accenture Product Development / Life Sciences",
+    "clientDescriptor": "Internal enterprise platform"
+  },
+  {
+    "slug": "2020-healthcare-focused-private-equity-firm",
+    "year": 2020,
+    "dates": "December, 2020 - December, 2020",
+    "role": "Application Developer (MIB Partnership Strategy)",
+    "industry": "Private Equity / Healthcare Investment",
+    "clientDescriptor": "Healthcare-focused private equity firm"
+  },
+  {
+    "slug": "2020-utility-company",
+    "year": 2020,
+    "dates": "December, 2020 - March, 2022",
+    "role": "Technology Architect (NOVA2 Microservices)",
+    "industry": "Utilities / Energy",
+    "clientDescriptor": "Fortune 500 utility company"
+  },
+  {
+    "slug": "2019-major-petroleum-refining-company",
+    "year": 2019,
+    "dates": "October, 2019 - March, 2020",
+    "role": "Application Lead (DS.MV.Application Services)",
+    "industry": "Oil & Gas / Energy",
+    "clientDescriptor": "Major petroleum refining company"
+  },
+  {
+    "slug": "2019-insurance-company",
+    "year": 2019,
+    "dates": "April, 2019 - July, 2019",
+    "role": "Cloud Platform Architect (Agent Digital Marketing Nationwide)",
+    "industry": "Insurance",
+    "clientDescriptor": "Fortune 50 insurance company"
+  },
+  {
+    "slug": "2018-healthcare-retail-company",
+    "year": 2018,
+    "dates": "August, 2018 - October, 2018",
+    "role": "Technology Architect (Enterprise IT Adv Assessment PBM 1087074)",
+    "industry": "Healthcare / Retail Pharmacy",
+    "clientDescriptor": "Fortune 10 healthcare & retail company"
+  },
+  {
+    "slug": "2018-hospitality-company",
+    "year": 2018,
+    "dates": "July, 2018 - July, 2018",
+    "role": "Technology Architect (Red Hedgehog Venture Const., project ref. 9940259842)",
+    "industry": "Hospitality",
+    "clientDescriptor": "Fortune 500 hospitality company"
+  },
+  {
+    "slug": "2018-provincial-government-transit-agency",
+    "year": 2018,
+    "dates": "November, 2018 - January, 2019",
+    "role": "Application Architect (the Provincial government transit agency)",
+    "industry": "Government / Public Transit",
+    "clientDescriptor": "Provincial government transit agency"
+  },
+  {
+    "slug": "2017-global-apparel-retail-group",
+    "year": 2017,
+    "dates": "July, 2017 - November, 2017",
+    "role": "Infrastructure Architect (Infrastructure Technical Architect)",
+    "industry": "Retail / Apparel",
+    "clientDescriptor": "Global apparel retail group"
+  },
+  {
+    "slug": "2017-hospitality-company",
+    "year": 2017,
+    "dates": "December, 2017 - June, 2018",
+    "role": "Technology Architect (200 AHS IO Run - Washington, D.C. - API Lead/Architect)",
+    "industry": "Hospitality",
+    "clientDescriptor": "Fortune 500 hospitality company"
+  },
+  {
+    "slug": "2017-hospitality-company-2",
+    "year": 2017,
+    "dates": "May, 2017 - September, 2017",
+    "role": "Technology Architect (200 IO Run - Washington, D.C. - API Lead/Architect)",
+    "industry": "Hospitality",
+    "clientDescriptor": "Fortune 500 hospitality company"
+  },
+  {
+    "slug": "2016-cruise-line",
+    "year": 2016,
+    "dates": "August, 2016 - March, 2017",
+    "role": "Technology Architect (the Fortune 500 cruise line WebSite - Build - Miami)",
+    "industry": "Travel & Hospitality / Cruise Line",
+    "clientDescriptor": "Fortune 500 cruise line"
+  },
+  {
+    "slug": "2015-semiconductor-company",
+    "year": 2015,
+    "dates": "January, 2015 - March, 2015",
+    "role": "Technology Architect (Development Lead - Wayne Fuels/the Fortune 50 semiconductor company)",
+    "industry": "Semiconductor / Technology Manufacturing",
+    "clientDescriptor": "Fortune 50 semiconductor company"
+  },
+  {
+    "slug": "2015-hospitality-company",
+    "year": 2015,
+    "dates": "July, 2015 - June, 2016",
+    "role": "Integration Architect",
+    "industry": "Hospitality",
+    "clientDescriptor": "Fortune 500 hospitality company"
+  },
+  {
+    "slug": "2015-retail-company",
+    "year": 2015,
+    "dates": "April, 2015 - October, 2015",
+    "role": "Technology Architect (RMS and Custom Applications - US)",
+    "industry": "Retail",
+    "clientDescriptor": "Fortune 100 retail company"
+  },
+  {
+    "slug": "2014-national-retail-kiosk-company",
+    "year": 2014,
+    "dates": "October, 2014 - December, 2014",
+    "role": "Technology Architect (Video Solution Architect - the National retail kiosk company Phase 0)",
+    "industry": "Retail / Media Kiosk (video rental)",
+    "clientDescriptor": "National retail kiosk company"
+  },
+  {
+    "slug": "2013-government-sponsored-mortgage-finance-enterprise",
+    "year": 2013,
+    "dates": "February, 2013 - April, 2013",
+    "role": "Delivery Lead (CLM - Change The Bank - Collections Platform Vendor Assessment)",
+    "industry": "Financial Services / Government-Sponsored Enterprise (Mortgage Finance)",
+    "clientDescriptor": "Government-sponsored mortgage finance enterprise"
+  },
+  {
+    "slug": "2013-global-top-tier-bank",
+    "year": 2013,
+    "dates": "April, 2013 - September, 2013",
+    "role": "Technology Architect (Card Services)",
+    "industry": "Banking / Financial Services",
+    "clientDescriptor": "Global top-tier bank"
+  },
+  {
+    "slug": "2013-hospitality-company",
+    "year": 2013,
+    "dates": "October, 2013 - September, 2014",
+    "role": "Technology Architect (API Gateway - Reservations track)",
+    "industry": "Hospitality",
+    "clientDescriptor": "Fortune 500 hospitality company"
+  },
+  {
+    "slug": "2012-global-asset-management-firm",
+    "year": 2012,
+    "dates": "July, 2012 - January, 2013",
+    "role": "Integration Architect (CISR - Integration Services, Inbound Interfaces)",
+    "industry": "Financial Services / Asset Management",
+    "clientDescriptor": "Global asset management firm"
+  },
+  {
+    "slug": "2011-pharmaceutical-company",
+    "year": 2011,
+    "dates": "October, 2011 - September, 2012",
+    "role": "Integration Architect",
+    "industry": "Pharmaceuticals / Life Sciences",
+    "clientDescriptor": "Fortune 500 pharmaceutical company"
+  },
+  {
+    "slug": "2010-global-media-market-research-company",
+    "year": 2010,
+    "dates": "July, 2010 - December, 2011",
+    "role": "Integration Architect (SOA Architect)",
+    "industry": "Media & Market Research / Consumer Data Analytics",
+    "clientDescriptor": "Global media & market research company"
+  },
+  {
+    "slug": "2010-global-media-market-research-company-2",
+    "year": 2010,
+    "dates": "January, 2010 - June, 2010",
+    "role": "Program/Project Management Lead",
+    "industry": "Media & Market Research / Consumer Data Analytics",
+    "clientDescriptor": "Global media & market research company"
+  },
+  {
+    "slug": "2009-payments-technology-company",
+    "year": 2009,
+    "dates": "January, 2009 - February, 2009",
+    "role": "Application Development Cell Lead",
+    "industry": "Financial Technology / Payments",
+    "clientDescriptor": "Fortune 500 payments technology company"
+  },
+  {
+    "slug": "2009-global-media-market-research-company",
+    "year": 2009,
+    "dates": "March, 2009 - January, 2010",
+    "role": "Program/Project Management Lead (Composite Project Manager)",
+    "industry": "Media & Market Research / Consumer Data Analytics",
+    "clientDescriptor": "Global media & market research company"
+  },
+  {
+    "slug": "2008-hospitality-company",
+    "year": 2008,
+    "dates": "June, 2008 - December, 2008",
+    "role": null,
+    "industry": "Hospitality",
+    "clientDescriptor": "Fortune 500 hospitality company"
+  },
+  {
+    "slug": "2007-hospitality-company",
+    "year": 2007,
+    "dates": "July, 2007 - June, 2008",
+    "role": null,
+    "industry": "Hospitality",
+    "clientDescriptor": "Fortune 500 hospitality company"
+  },
+  {
+    "slug": "2006-state-government-agency",
+    "year": 2006,
+    "dates": "March, 2006 - June, 2007",
+    "role": null,
+    "industry": "Government / Public Sector - Health & Human Services",
+    "clientDescriptor": "State government agency"
+  },
+  {
+    "slug": "2004-online-travel-auction-startup",
+    "year": 2004,
+    "dates": "June, 2004 - March, 2005",
+    "role": null,
+    "industry": "Travel / Online Travel Booking",
+    "clientDescriptor": "Online travel auction startup"
+  },
+  {
+    "slug": "2003-global-top-tier-bank",
+    "year": 2003,
+    "dates": "March, 2003 - February, 2004",
+    "role": null,
+    "industry": "Banking / Financial Services",
+    "clientDescriptor": "Global top-tier bank"
+  },
+  {
+    "slug": "2002-global-top-tier-bank",
+    "year": 2002,
+    "dates": "September, 2002 - February, 2003",
+    "role": null,
+    "industry": "Banking / Financial Services",
+    "clientDescriptor": "Global top-tier bank"
+  },
+  {
+    "slug": "2002-global-top-tier-bank-2",
+    "year": 2002,
+    "dates": "February, 2002 - August, 2002",
+    "role": null,
+    "industry": "Banking / Financial Services (project delivered for the State of New York's tax processing system via the Global top-tier bank)",
+    "clientDescriptor": "Global top-tier bank"
+  },
+  {
+    "slug": "2001-global-top-tier-bank",
+    "year": 2001,
+    "dates": "October, 2001 - February, 2002",
+    "role": null,
+    "industry": "Banking / Financial Services",
+    "clientDescriptor": "Global top-tier bank"
+  },
+  {
+    "slug": "2001-enterprise-supply-chain-software-company",
+    "year": 2001,
+    "dates": "June, 2001 - September, 2001",
+    "role": null,
+    "industry": "Supply Chain Management Software / Enterprise Software (inferred from client name and project title \"Supply Chain Enterprise Web Application\")",
+    "clientDescriptor": "Enterprise supply-chain software company"
+  },
+  {
+    "slug": "2000-global-transportation-company-client-of-an-it-consulting-firm",
+    "year": 2000,
+    "dates": "February, 2000 - June, 2001",
+    "role": null,
+    "industry": "Transportation / Logistics (client described as \"a global transportation company based in Brazil\")",
+    "clientDescriptor": "Global transportation company (client of an IT consulting firm)"
+  },
+  {
+    "slug": "1999-early-stage-e-commerce-startup",
+    "year": 1999,
+    "dates": "May, 1999 - December, 1999",
+    "role": null,
+    "industry": "E-Commerce / Retail (inferred from client name and project description; not explicitly labeled in source document)",
+    "clientDescriptor": "Early-stage e-commerce startup"
+  }
+]

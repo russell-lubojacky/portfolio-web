@@ -1,0 +1,290 @@
+[
+  {
+    "slug": "architecture-reviews",
+    "theme": "Architecture Reviews",
+    "summary": "Leading and participating in formal design/architecture review and sign-off processes — both as the reviewer (evaluating others' code and designs) and as the party seeking approval (presenting architecture to client review boards). This is a narrower, more process-specific theme than [[technical-vision]]: it's about the review mechanism itself, not the strategic direction being reviewed.",
+    "evidence": [
+      {
+        "dates": "Jun 2008 - Dec 2008",
+        "description": "Conducted detail design and code review meetings with the client's SME and technical architect to reach sign-off during the build phase",
+        "projectSlug": "2008-hospitality-company"
+      },
+      {
+        "dates": "Jul 2012 - Jan 2013",
+        "description": "Received approval for a future integration blueprint, interface inventory, and reference architecture from the client's architecture review board",
+        "projectSlug": "2012-global-asset-management-firm"
+      },
+      {
+        "dates": "Oct 2011 - Sep 2012",
+        "description": "Participated in detailed design and code reviews, reviewed system performance/consumption issues, reviewed test plans",
+        "projectSlug": "2011-pharmaceutical-company"
+      },
+      {
+        "dates": "Feb 2023 - Apr 2023",
+        "description": "Read team member code and pinpointed problems as part of Java/JavaScript full-stack AppDev support",
+        "projectSlug": "2023-national-insurance-carrier"
+      }
+    ],
+    "scope": "Review scope ranges from peer-level code review (the National insurance carrier) to formal client architecture review board presentations with binding sign-off (Capital Group). No aggregate count of reviews conducted is available in the source material.",
+    "approach": "Where stated: conducting joint design/code review meetings directly with client SMEs and technical architects rather than reviewing in isolation (the Fortune 500 hospitality company One Path); building the artifacts a review board needs (blueprint, interface inventory, reference architecture) before presenting for approval, then using the approved artifact as the design baseline for the broader team (Capital Group).",
+    "impact": "Secured a formally approved integration blueprint and reference architecture that became the design foundation for the client's integration services team (Capital Group) — a directly attributable outcome of the review process itself, not just the underlying architecture work.",
+    "resumeBulletPoints": [
+      "Secured client architecture review board approval for an integration blueprint and reference architecture, establishing it as the binding design baseline for a multi-team transformation",
+      "Conducted joint design and code review sessions with client SMEs and technical architects to reach build-phase sign-off on schedule"
+    ]
+  },
+  {
+    "slug": "mentoring",
+    "theme": "Mentoring",
+    "summary": "The source resume's professional summary explicitly claims \"Technical team leadership & mentoring\" as one of Russell's key strengths, but no individual project description in the \"PRIOR WORK EXPERIENCE\" section uses the word \"mentor\" or describes a specific mentoring relationship (a named junior engineer coached, a skill deliberately transferred, a career outcome influenced). The closest adjacent evidence is code-review-based technical guidance, which is a mentoring *mechanism* but not documented as mentoring *outcome*.",
+    "evidence": [
+      {
+        "dates": "May 2022 - Dec 2023",
+        "description": "Provided technical guidance to implementation teams; conducted code reviews and quality validation activities across the team",
+        "projectSlug": "2022-bank"
+      },
+      {
+        "dates": "Feb 2023 - Apr 2023",
+        "description": "Read team member code and pinpointed problems",
+        "projectSlug": "2023-national-insurance-carrier"
+      },
+      {
+        "dates": "Jul 2007 - Jun 2008",
+        "description": "Led 5 resources through build, testing, and delivery (Phase 2 technical lead role)",
+        "projectSlug": "2007-hospitality-company"
+      }
+    ],
+    "scope": null,
+    "approach": null,
+    "impact": null,
+    "resumeBulletPoints": [
+      "Technical team leadership and mentoring across development teams of 3-20 people (see [[team-leadership]] for the people-management evidence this claim is likely drawing on)",
+      "TBD — additional mentoring-specific bullets require direct input; do not draft mentoring-specific claims beyond the general leadership evidence until Russell provides specifics"
+    ]
+  },
+  {
+    "slug": "project-rescue",
+    "theme": "Project Rescue",
+    "summary": "No project in the source resume is described as a rescue, turnaround, or recovery of a failing initiative. Several engagements describe aggressive schedules, high-visibility client oversight, or coordination challenges (see the Challenges section of individual project files), but none frame the starting condition as \"already in trouble\" the way a genuine project-rescue story would. This theme is currently unsupported by the source material.",
+    "evidence": [
+      {
+        "dates": "Jan 2010 - Jun 2010",
+        "description": "Led an Accenture team through an \"aggressive schedule\" on a \"high-visibility project\" — the SWAT team framing suggests urgency, but the source document describes building new validation capability, not recovering a failed one",
+        "projectSlug": "2010-global-media-market-research-company-2"
+      },
+      {
+        "dates": "Feb 2013 - Apr 2013",
+        "description": "\"Change The Bank\" naming and RFP urgency suggest a strategic initiative, but no failure/recovery narrative is stated",
+        "projectSlug": "2013-government-sponsored-mortgage-finance-enterprise"
+      }
+    ],
+    "scope": null,
+    "approach": null,
+    "impact": null,
+    "resumeBulletPoints": []
+  },
+  {
+    "slug": "stakeholder-management",
+    "theme": "Stakeholder Management (includes CLAUDE.md's \"Difficult Stakeholders\" theme)",
+    "summary": "Direct, sustained engagement with client-side leadership — architects, IT directors, product leadership — across nearly every engagement in the career history. The source resume documents extensive *collaborative* stakeholder management (status reporting, joint design sessions, daily/weekly touchpoints) but does not describe any specific *difficult* stakeholder situation (conflict, pushback, misalignment) in narrative form. This file is titled broadly to reflect what's actually evidenced; see Notes below on the \"Difficult Stakeholders\" gap specifically.",
+    "evidence": [
+      {
+        "dates": "Jul 2007 - Jun 2008",
+        "description": "Coordinated test plans across multiple teams within the Fortune 500 hospitality company organization; ran weekly status meetings; organized the transition of the Translation Mediator to the client",
+        "projectSlug": "2007-hospitality-company"
+      },
+      {
+        "dates": "Jun 2008 - Dec 2008",
+        "description": "Managed the client architect and Endeca consultant relationship; communicated build-phase status to all stakeholders weekly; conducted sign-off meetings with client SME and technical architect",
+        "projectSlug": "2008-hospitality-company"
+      },
+      {
+        "dates": "Jan 2010 - Jun 2010",
+        "description": "Maintained constant contact with client directors on a high-visibility project",
+        "projectSlug": "2010-global-media-market-research-company-2"
+      },
+      {
+        "dates": "Jul 2010 - Dec 2011",
+        "description": "Daily collaboration with client product leadership; collaborated with other the Global media & market research company client architects",
+        "projectSlug": "2010-global-media-market-research-company"
+      },
+      {
+        "dates": "Jul 2012 - Jan 2013",
+        "description": "Worked closely with the integration services team, reviewing and obtaining sign-off on key decisions",
+        "projectSlug": "2012-global-asset-management-firm"
+      },
+      {
+        "dates": "Feb 2013 - Apr 2013",
+        "description": "Coordinated directly with client IT directors to develop technical requirements and vendor scoring criteria",
+        "projectSlug": "2013-government-sponsored-mortgage-finance-enterprise"
+      },
+      {
+        "dates": "Jul 2017 - Nov 2017",
+        "description": "Communicated technology stack direction to client and key players",
+        "projectSlug": "2017-global-apparel-retail-group"
+      },
+      {
+        "dates": "Aug 2022 - Dec 2022",
+        "description": "Drove client discussions to define integration requirements and translate business requirements into a technology solution",
+        "projectSlug": "2022-technology-company"
+      },
+      {
+        "dates": "May 2023 - Sep 2025",
+        "description": "Worked closely with the client to deliver demos and obtain approvals throughout a 2+ year engagement, including presenting the final proof-of-concept frontend application",
+        "projectSlug": "2023-us-federal-government-agency"
+      },
+      {
+        "dates": "Oct 2025 - Present",
+        "description": "Partnered directly with the US federal government agency product owners and architects to define the modernization approach as requirements evolved; presents weekly demos directly to executive stakeholders throughout an ongoing multi-phase engagement",
+        "projectSlug": "2025-us-federal-government-agency"
+      }
+    ],
+    "scope": "Stakeholder levels documented range from individual client architects and consultants (the Fortune 500 hospitality company One Path) to client IT directors (the Government-sponsored mortgage finance enterprise, the Global media & market research company) to formal architecture review boards (see [[architecture-reviews]]).",
+    "approach": "Consistent cadence-driven approach: weekly or daily status touchpoints, joint design/sign-off sessions rather than one-way reporting, and direct ownership of specific external relationships (e.g., \"managed the client architect and Endeca consultant relationship\").",
+    "impact": "Achieved client architect and SME sign-off on schedule (the Fortune 500 hospitality company One Path); secured formal architecture review board approval (Capital Group — see [[architecture-reviews]]); maintained client director confidence through a high-visibility, aggressive-schedule engagement (the Global media & market research company Validation SWAT).",
+    "resumeBulletPoints": [
+      "Built and sustained direct working relationships with client architects, IT directors, and product leadership across banking, hospitality, retail, and media clients",
+      "Ran structured weekly/daily stakeholder communication cadences that kept high-visibility, aggressive-schedule engagements on track and client leadership confident in outcomes"
+    ]
+  },
+  {
+    "slug": "team-leadership",
+    "theme": "Team Leadership",
+    "summary": "Direct people-leadership of development teams, ranging from small (3-4 developers) to large (20-person onshore/offshore), recurring throughout the career from early-career technical leads (2007-2009) through senior architect-level team leadership (2016, 2022). This is the most concretely evidenced leadership theme in the source resume — most entries state an explicit headcount or team-management scope, unlike the architecture/stakeholder themes where scope is often unstated.",
+    "evidence": [
+      {
+        "dates": "Jul 2007 - Jun 2008",
+        "description": "Moved to technical lead role in Phase 2, leading 5 resources through build, testing, and delivery; ran weekly status meetings",
+        "projectSlug": "2007-hospitality-company"
+      },
+      {
+        "dates": "Jun 2008 - Dec 2008",
+        "description": "Led the technical team, managed 3 developers through build and test",
+        "projectSlug": "2008-hospitality-company"
+      },
+      {
+        "dates": "Jan 2009 - Feb 2009",
+        "description": "Led a team of 4 development resources through technical architecture design as Application Development Cell Lead",
+        "projectSlug": "2009-payments-technology-company"
+      },
+      {
+        "dates": "Mar 2009 - Jan 2010",
+        "description": "Led a combined 20-person onshore/offshore Composite team",
+        "projectSlug": "2009-global-media-market-research-company"
+      },
+      {
+        "dates": "Jan 2010 - Jun 2010",
+        "description": "Led an Accenture team through an aggressive schedule",
+        "projectSlug": "2010-global-media-market-research-company-2"
+      },
+      {
+        "dates": "Oct 2011 - Sep 2012",
+        "description": "Managed the onshore/offshore eServices Platform (eSP) team through enhancement releases",
+        "projectSlug": "2011-pharmaceutical-company"
+      },
+      {
+        "dates": "Jan 2015 - Mar 2015",
+        "description": "Served as Development Lead, effectively managing a team of developers",
+        "projectSlug": "2015-semiconductor-company"
+      },
+      {
+        "dates": "Aug 2016 - Mar 2017",
+        "description": "Led and supervised a team of API developers through design, implementation, and testing",
+        "projectSlug": "2016-cruise-line"
+      },
+      {
+        "dates": "May 2022 - Dec 2023",
+        "description": "Directed engineering activities including code reviews across the team (Application Support Engineer phase)",
+        "projectSlug": "2022-bank"
+      },
+      {
+        "dates": "May 2023 - Sep 2025",
+        "description": "Managed a 2-3 person team of database developers across a 2+ year database/GIS migration engagement",
+        "projectSlug": "2023-us-federal-government-agency"
+      },
+      {
+        "dates": "Oct 2025 - Present",
+        "description": "Led a 3-4 person team through a Claude-Code-based legacy analysis framework he established, completing the architecture assessment of all 10 in-scope applications (Phase 1); leads a 4-5 person team (Phase 2) implementing the modernization of 2 of those 10 applications with Claude Code — 1 ongoing, 1 paused early when the client redirected focus; remaining 8 assessed and architected, awaiting implementation",
+        "projectSlug": "2025-us-federal-government-agency"
+      }
+    ],
+    "scope": "Documented team sizes led directly range from 2 to 20 people. The 20-person figure (the Global media & market research company Composite Project Manager, 2009-2010) is the largest explicitly stated; the US federal government agency engagement (2-3 person database team, 2023-2025) is the longest-duration team leadership role by calendar time (2+ years) to date. the US federal government agency engagement (2025-present) is notable for a within-engagement team handoff: a 3-4 person team for Phase 1 (analysis), transitioning to a 4-5 person team for Phase 2 (build) — the first documented case of leading two differently-scoped teams sequentially within one client relationship. Several engagements state team leadership without a headcount (the Fortune 50 semiconductor company, the Fortune 500 cruise line, the Fortune 100 bank) — treat those as directional evidence, not part of any aggregate headcount total. Do not sum team sizes across engagements: they occurred at different clients and there is no basis in the source material for claiming these were distinct, non-overlapping individuals contributing to a single cumulative \"people led\" number.",
+    "approach": "Where the source material describes method rather than just scope: ran weekly status meetings with development resources (the Fortune 500 hospitality company Globalization); conducted detail design and code review meetings with client SMEs and technical architects (the Fortune 500 hospitality company One Path); managed team members' work efforts and verified quality/completion, planned/scheduled working sessions with Functional Designers, Business Analysts, and SMEs (the Fortune 500 payments technology company); reported status to product leadership on a daily basis (the Global media & market research company Composite PM); maintained constant contact with client directors on a high-visibility project (the Global media & market research company Validation SWAT); conducted code reviews and quality validation activities across the team (the Fortune 100 bank); established a reusable Claude-Code-based framework himself before rolling it out to a team, rather than having each team member improvise their own approach to AI-assisted work (the US federal government agency, 2025-present) — see [[../skills/ai-assisted-development]].",
+    "impact": "Delivered all critical workflow components and test activities on time with client sign-off (the Fortune 500 hospitality company Globalization); achieved client architect and SME sign-off during the build phase (the Fortune 500 hospitality company One Path); delivered complicated technical requirements on time across several releases (the Global media & market research company Composite PM); delivered a data validation framework on an aggressive schedule that gave client directors confidence in report accuracy (the Global media & market research company Validation SWAT Team).",
+    "resumeBulletPoints": [
+      "Led development teams ranging from 3 to 20 people (onshore and offshore) across banking, hospitality, media, and pharmaceutical clients, consistently delivering on aggressive schedules",
+      "Progressed from technical lead of a 5-person build/delivery team (2007-2008) to leading a combined 20-person onshore/offshore team on a multi-release Agile initiative (2009-2010)",
+      "Directed engineering activities including code review and quality validation across implementation teams on a financial services decisioning platform"
+    ]
+  },
+  {
+    "slug": "technical-vision",
+    "theme": "Technical Vision",
+    "summary": "Setting technical direction and target-state architecture strategy — the most frequently recurring leadership theme in the career history by project count. Shows up as everything from architecture assessments recommending a target-state platform, to owning an API platform initiative across multiple years and clients, to explicit \"thought leadership\" language in the source material.",
+    "evidence": [
+      {
+        "dates": "Oct 2011 - Sep 2012",
+        "description": "Provided technical expertise to set the technical direction on the project",
+        "projectSlug": "2011-pharmaceutical-company"
+      },
+      {
+        "dates": "Feb 2013 - Apr 2013",
+        "description": "Led the technology work stream of an RFP evaluating packaged billing/collections platforms",
+        "projectSlug": "2013-government-sponsored-mortgage-finance-enterprise"
+      },
+      {
+        "dates": "Apr 2013 - Sep 2013",
+        "description": "Drove the technical side of a strategic assessment, recommending a target-state card processor and identifying impacted applications",
+        "projectSlug": "2013-global-top-tier-bank"
+      },
+      {
+        "dates": "Jan 2015 - Mar 2015",
+        "description": "Provided thought leadership, strategy, and led innovation by exploring, investigating, recommending, benchmarking, and implementing technologies",
+        "projectSlug": "2015-semiconductor-company"
+      },
+      {
+        "dates": "Jul 2015 - Jun 2016",
+        "description": "Led the REST API platform initiative",
+        "projectSlug": "2015-hospitality-company"
+      },
+      {
+        "dates": "May 2017 - Sep 2017, Dec 2017 - Jun 2018",
+        "description": "Served as API Lead/Architect for the REST API platform initiative across two consecutive engagements",
+        "projectSlug": "2017-hospitality-company-2"
+      },
+      {
+        "dates": "Jul 2017 - Nov 2017",
+        "description": "Defined the technology stack and communicated direction to client and key players",
+        "projectSlug": "2017-global-apparel-retail-group"
+      },
+      {
+        "dates": "Aug 2018 - Oct 2018",
+        "description": "Delivered a technology architecture assessment using Accenture's \"New IT\" methodology",
+        "projectSlug": "2018-healthcare-retail-company"
+      },
+      {
+        "dates": "Dec 2020 - Mar 2022",
+        "description": "Provided input into final decisions on hardware, network products, system software, and security",
+        "projectSlug": "2020-utility-company"
+      },
+      {
+        "dates": "Aug 2022 - Dec 2022",
+        "description": "Drove client discussions and led the translation of business requirements into the technology solution",
+        "projectSlug": "2022-technology-company"
+      },
+      {
+        "dates": "Oct 2025 - Present",
+        "description": "Defined the future-state AWS architecture and technology stack for ~10 legacy applications following a Claude-Code-accelerated assessment; ongoing",
+        "projectSlug": "2025-us-federal-government-agency"
+      }
+    ],
+    "scope": "Spans individual-contributor-level technical direction (the Fortune 500 pharmaceutical company) through multi-year platform ownership re-engaged across three separate contracts by the same client (the Fortune 500 hospitality company's REST API platform, 2015-2018 — see [[../clients/the Fortune 500 hospitality company]]).",
+    "approach": "Consistent pattern across engagements: assess current-state architecture, define/recommend a target state, identify gaps and impacted applications, and drive client discussions to translate business requirements into the technical solution. Explicitly named as \"thought leadership\" at the Fortune 50 semiconductor company (2015): exploring, investigating, recommending, benchmarking, and implementing technologies. At the US federal government agency (2025-present), this same current-state-assessment step was accelerated using an AI coding agent (Claude Code) with detailed prompting — the underlying architecture-assessment methodology is consistent with earlier engagements, but the tooling used to execute it under a compressed deadline (~10 apps in 3 months) is new.",
+    "impact": "Delivered a recommended target-state card processor with full impact analysis (the Global top-tier bank); the Fortune 500 hospitality company re-engaged the same architect across three consecutive REST API platform contracts rather than rotating architects — the strongest evidence of technical-vision impact in the source material, since repeat engagement is a client behavior, not a self-reported claim.",
+    "resumeBulletPoints": [
+      "Repeatedly entrusted by the Fortune 500 hospitality company to lead technical direction across three consecutive engagements (2015-2018) of the same REST API platform initiative",
+      "Led strategic architecture assessments recommending target-state platforms and quantifying transformation impact for banking, insurance, and healthcare clients",
+      "Delivered \"New IT\"-methodology technology architecture assessments and thought-leadership-driven technology strategy for Fortune 500 clients across pharma, retail, and semiconductor industries"
+    ]
+  }
+]

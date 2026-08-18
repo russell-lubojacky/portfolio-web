@@ -1,17 +1,26 @@
-# 1. Base image
-FROM node:18 AS build
+# 1. Install dependencies
+FROM node:20-alpine AS deps
 WORKDIR /app
-
-# 2. Install Angular CLI and app dependencies
 COPY package.json package-lock.json ./
-RUN npm install
-RUN npm install -g @angular/cli@16
+RUN npm ci
 
-# 3. Copy app source and build
+# 2. Build (content/generated/*.json is committed, so no career-brain access needed here)
+FROM node:20-alpine AS build
+WORKDIR /app
+# NEXT_PUBLIC_* vars are inlined into the client bundle at build time, not read at
+# container runtime — must be passed as a build arg, not just a compose environment entry.
+ARG NEXT_PUBLIC_SITE_URL=http://localhost
+ENV NEXT_PUBLIC_SITE_URL=${NEXT_PUBLIC_SITE_URL}
+COPY --from=deps /app/node_modules ./node_modules
 COPY . .
-RUN ng build --configuration production
+RUN npm run build
 
-# 4. Base image for step 2
-FROM nginx:1.19.10-alpine AS runtime
-COPY --from=build /app/dist/portfolio-web /usr/share/nginx/html
-COPY nginx.conf /etc/nginx/conf.d/default.conf
+# 3. Runtime — standalone Next.js server, no nginx needed
+FROM node:20-alpine AS runtime
+WORKDIR /app
+ENV NODE_ENV=production
+COPY --from=build /app/public ./public
+COPY --from=build /app/.next/standalone ./
+COPY --from=build /app/.next/static ./.next/static
+EXPOSE 3000
+CMD ["node", "server.js"]
