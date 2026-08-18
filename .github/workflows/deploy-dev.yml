@@ -8,6 +8,7 @@ on:
 env:
   DEPLOY_PATH: /opt/portfolio-web-dev
   HOST_PORT: 8080
+  HOST_BIND: 127.0.0.1
 
 jobs:
   deploy:
@@ -68,11 +69,25 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           ssh -i ~/.ssh/deploy_key "$SSH_USER@$SSH_HOST" \
-            "cd $DEPLOY_PATH && HOST_PORT='$HOST_PORT' NEXT_PUBLIC_SITE_URL='$NEXT_PUBLIC_SITE_URL' ANTHROPIC_API_KEY='$ANTHROPIC_API_KEY' docker compose up --build -d"
+            "cd $DEPLOY_PATH && HOST_BIND='$HOST_BIND' HOST_PORT='$HOST_PORT' NEXT_PUBLIC_SITE_URL='$NEXT_PUBLIC_SITE_URL' ANTHROPIC_API_KEY='$ANTHROPIC_API_KEY' docker compose up --build -d"
+
+      # Container only binds to loopback (see HOST_BIND above) — this republishes it on the
+      # tailnet instead of the public internet. Idempotent: safe to re-run every deploy.
+      # Requires the deploy user to either be root or set as the tailscaled operator
+      # (one-time: `sudo tailscale set --operator=<deploy-user>` on the server).
+      - name: Publish dev site to the tailnet
+        env:
+          SSH_USER: ${{ secrets.LINODE_USER }}
+          SSH_HOST: ${{ secrets.LINODE_HOST }}
+        run: |
+          ssh -i ~/.ssh/deploy_key "$SSH_USER@$SSH_HOST" \
+            "tailscale serve --bg --http=$HOST_PORT localhost:$HOST_PORT"
 
       - name: Smoke test
         env:
+          SSH_USER: ${{ secrets.LINODE_USER }}
           SSH_HOST: ${{ secrets.LINODE_HOST }}
         run: |
           sleep 5
-          curl -fsS "http://$SSH_HOST:$HOST_PORT" -o /dev/null && echo "Dev site responded OK"
+          ssh -i ~/.ssh/deploy_key "$SSH_USER@$SSH_HOST" \
+            "curl -fsS http://127.0.0.1:$HOST_PORT -o /dev/null" && echo "Dev site responded OK (reachable over tailnet only)"
