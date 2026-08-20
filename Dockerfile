@@ -13,6 +13,10 @@ ARG NEXT_PUBLIC_SITE_URL=http://localhost
 ENV NEXT_PUBLIC_SITE_URL=${NEXT_PUBLIC_SITE_URL}
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
+# Caps the build's heap so an under-resourced host OOMs the build process cleanly
+# instead of swapping the whole machine (and anything else running on it) into
+# unresponsiveness — see the deploy-host memory incident this was added for.
+ENV NODE_OPTIONS=--max-old-space-size=1024
 RUN npm run build
 
 # 3. Runtime — standalone Next.js server, no nginx needed
