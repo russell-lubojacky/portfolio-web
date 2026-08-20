@@ -41,7 +41,7 @@ Three-stage Docker build (`node:20-alpine`): install deps → `npm run build` (s
 
 - `scripts/sync-career-brain/clientScale.ts` holds AI-suggested "scale" labels (Fortune 500, etc.) for all 29 clients — not sourced from career-brain, needs Russell's review.
 - The current NOAA/NWS-era engagement (`2025-us-federal-government-agency`) resists full anonymization even with the name removed — industry + dates narrow it to one identifiable engagement. Flagged, not fixed further.
-- `NEXT_PUBLIC_SITE_URL` GitHub Actions variable is set to `http://45.79.25.170` (bare IP) — update it once a real domain is pointed at the server, and re-run the deploy so the build picks up the new value.
+- `NEXT_PUBLIC_SITE_URL` GitHub Actions variable is set to `http://45.79.48.91` (bare IP) — update it once a real domain is pointed at the server, and re-run the deploy so the build picks up the new value.
 - `ANTHROPIC_API_KEY` GitHub secret doesn't exist yet — add it once Phase 4 (AI job-fit) is built; the workflow already forwards it if present.
 
 <!-- BEGIN:nextjs-agent-rules -->
