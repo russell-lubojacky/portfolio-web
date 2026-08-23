@@ -5,7 +5,7 @@
       "strengthLevel": null,
       "strengthLabel": null,
       "yearsUsed": "2025 - Present",
-      "summary": "Distinct from [[../accomplishments/ai]] (which tracks the source resume's claim of \"AI/ML experimentation and deployment\" — i.e., building/deploying machine learning models, still unsupported by any project evidence): this skill is about using AI coding agents as a development and analysis accelerant. Two different tools across two real engagements, with a clear step-up in sophistication: **GitHub Copilot** for an individually-driven frontend build (the US federal government agency, 2025), then **Claude Code** for a formalized, team-rolled-out framework spanning both analysis (single-agent, detailed prompting) and build (multi-agent workflows) phases (the US federal government agency, 2025-present) — plus the leadership dimension of establishing a reusable framework and rolling it out across a team, not just using the tool solo."
+      "summary": "Distinct from ai (which tracks the source resume's claim of \"AI/ML experimentation and deployment\" \u2014 i.e., building/deploying machine learning models, still unsupported by any project evidence): this skill is about using AI coding agents as a development and analysis accelerant. Two different tools across two real engagements, with a clear step-up in sophistication: **GitHub Copilot** for an individually-driven frontend build (the US federal government agency, 2025), then **Claude Code** for a formalized, team-rolled-out framework spanning both analysis (single-agent, detailed prompting) and build (multi-agent workflows) phases (the US federal government agency, 2025-present) \u2014 plus the leadership dimension of establishing a reusable framework and rolling it out across a team, not just using the tool solo."
     },
     {
       "name": "ArcGIS (ArcGIS Enterprise & ArcGIS Server)",
@@ -26,7 +26,7 @@
       "strengthLevel": null,
       "strengthLabel": null,
       "yearsUsed": "2016 - 2020, 2025 - Present",
-      "summary": "Broad multi-cloud experience in two waves: 2016-2020 (most heavily AWS — API Gateway, Lambda, EC2, subscriptions/environment stand-up — plus a GCP-centric serverless/microservices engagement and a role explicitly scoped as \"Cloud Platform Architect\" spanning public, private, and hybrid cloud), and 2025-present (leading a legacy-to-AWS modernization for a federal agency, the most senior cloud-architecture-defining role to date). Holds an AWS Certified Cloud Practitioner certification (2020). The source resume's professional summary explicitly cites \"cloud-native services (AWS, Azure)\" as a core strength."
+      "summary": "Broad multi-cloud experience in two waves: 2016-2020 (most heavily AWS \u2014 API Gateway, Lambda, EC2, subscriptions/environment stand-up \u2014 plus a GCP-centric serverless/microservices engagement and a role explicitly scoped as \"Cloud Platform Architect\" spanning public, private, and hybrid cloud), and 2025-present (leading a legacy-to-AWS modernization for a federal agency, the most senior cloud-architecture-defining role to date). Holds an AWS Certified Cloud Practitioner certification (2020). The source resume's professional summary explicitly cites \"cloud-native services (AWS, Azure)\" as a core strength."
     },
     {
       "name": "DevOps",
@@ -54,7 +54,7 @@
       "strengthLevel": 4,
       "strengthLabel": "Expert",
       "yearsUsed": "1999 - 2023 (core language across nearly the entire career per source resume)",
-      "summary": "Java has been the primary backend language across the majority of engagements over 25 years — from J2EE web applications (Servlets, JSP, EJB) in the early 2000s, through Spring/Hibernate-based enterprise applications, to REST API platforms (CXF, Apache Camel) at the Fortune 500 hospitality company and modern Spring Boot microservices. Deep, sustained experience spans full application lifecycle: architecture, design, build, integration, and testing."
+      "summary": "Java has been the primary backend language across the majority of engagements over 25 years \u2014 from J2EE web applications (Servlets, JSP, EJB) in the early 2000s, through Spring/Hibernate-based enterprise applications, to REST API platforms (CXF, Apache Camel) at the Fortune 500 hospitality company and modern Spring Boot microservices. Deep, sustained experience spans full application lifecycle: architecture, design, build, integration, and testing."
     },
     {
       "name": "JavaScript",
@@ -110,27 +110,27 @@
       "strengthLevel": 5,
       "strengthLabel": "Master",
       "yearsUsed": "2023 - 2025",
-      "summary": "PostgreSQL is rated at the highest self-assessed proficiency level in the source resume's skills table (dated 2022), alongside Oracle — at the time that resume was generated, no project evidence supported the rating. That gap has since been closed directly by Russell: the US federal government agency engagement (2023-2025) is now a real, substantial PostgreSQL project — a full migration off a legacy Oracle system, a schema redesign for performance, and GIS-specific extension work via PostGIS integrated with ArcGIS Server."
+      "summary": "PostgreSQL is rated at the highest self-assessed proficiency level in the source resume's skills table (dated 2022), alongside Oracle \u2014 at the time that resume was generated, no project evidence supported the rating. That gap has since been closed directly by Russell: the US federal government agency engagement (2023-2025) is now a real, substantial PostgreSQL project \u2014 a full migration off a legacy Oracle system, a schema redesign for performance, and GIS-specific extension work via PostGIS integrated with ArcGIS Server."
     },
     {
       "name": "Python",
       "strengthLevel": 5,
       "strengthLabel": "Master",
-      "yearsUsed": "2004 - 2006 (explicit early-career project evidence); self-assessed at Master level in the 2022 skills profile; confirmed current, hands-on use since October 2025 on the US federal government agency engagement — closing the gap the 2022 self-assessment implied but earlier project evidence didn't support.",
-      "summary": "Early career: data-loading automation (pricing file ingestion into Oracle) and operational monitoring/alerting scripts, as a scripting layer alongside larger Java/Oracle applications. Current (the US federal government agency, 2025-present): Python is now central rather than peripheral — reading and reverse-engineering a legacy Python codebase to recover undocumented behavior across all 10 in-scope applications, and (on the 2 applications that have reached implementation) working with Claude Code to modernize legacy Java/C++ code. The source resume's skills table rating (5-Master) is now backed by current, substantial evidence, not just early-career scripting and self-assessment."
+      "yearsUsed": "2004 - 2006 (explicit early-career project evidence); self-assessed at Master level in the 2022 skills profile; confirmed current, hands-on use since October 2025 on the US federal government agency engagement \u2014 closing the gap the 2022 self-assessment implied but earlier project evidence didn't support.",
+      "summary": "Early career: data-loading automation (pricing file ingestion into Oracle) and operational monitoring/alerting scripts, as a scripting layer alongside larger Java/Oracle applications. Current (the US federal government agency, 2025-present): Python is now central rather than peripheral \u2014 reading and reverse-engineering a legacy Python codebase to recover undocumented behavior across all 10 in-scope applications, and (on the 2 applications that have reached implementation) working with Claude Code to modernize legacy Java/C++ code. The source resume's skills table rating (5-Master) is now backed by current, substantial evidence, not just early-career scripting and self-assessment."
     },
     {
       "name": "REST APIs",
       "strengthLevel": 2,
       "strengthLabel": "Intermediate",
       "yearsUsed": "2013 - 2020",
-      "summary": "Extensive, sustained REST API leadership experience — repeatedly served as \"API Lead/Architect\" on the Fortune 500 hospitality company's multi-year REST API platform initiative (2013-2018), building custom Java REST services (CXF, Apache Camel) on top of legacy SOAP systems. Also defined cloud-native API architectures (AWS API Gateway + Lambda) for the Fortune 500 cruise line, and built REST APIs in Spring Boot microservice contexts more recently."
+      "summary": "Extensive, sustained REST API leadership experience \u2014 repeatedly served as \"API Lead/Architect\" on the Fortune 500 hospitality company's multi-year REST API platform initiative (2013-2018), building custom Java REST services (CXF, Apache Camel) on top of legacy SOAP systems. Also defined cloud-native API architectures (AWS API Gateway + Lambda) for the Fortune 500 cruise line, and built REST APIs in Spring Boot microservice contexts more recently."
     },
     {
       "name": "ServiceNow",
       "strengthLevel": null,
       "strengthLabel": null,
-      "yearsUsed": "2023 - 2025 (mid-engagement; superseded toward the end by a custom frontend — see Notes)",
+      "yearsUsed": "2023 - 2025 (mid-engagement; superseded toward the end by a custom frontend \u2014 see Notes)",
       "summary": "ServiceNow integration work on the US federal government agency engagement: making ArcGIS map data available for display within ServiceNow, as an intermediate step in the platform's evolution before the client requested a fully custom frontend map application in the engagement's final phase."
     },
     {
@@ -145,7 +145,7 @@
       "strengthLevel": null,
       "strengthLabel": null,
       "yearsUsed": "2025 - Present",
-      "summary": "First documented Terraform evidence in the career history — used as the infrastructure-as-code tool for provisioning AWS infrastructure (SNS, S3, EventBridge, EC2, Kubernetes) during the US federal government agency legacy application modernization, alongside GitLab CI/CD."
+      "summary": "First documented Terraform evidence in the career history \u2014 used as the infrastructure-as-code tool for provisioning AWS infrastructure (SNS, S3, EventBridge, EC2, Kubernetes) during the US federal government agency legacy application modernization, alongside GitLab CI/CD."
     }
   ],
   "projects": [
@@ -153,7 +153,7 @@
       "slug": "2025-us-federal-government-agency",
       "year": 2025,
       "role": "Application Architect",
-      "industry": "Government / Federal Public Sector — Scientific / Environmental (Weather & Atmospheric Data)",
+      "industry": "Government / Federal Public Sector \u2014 Scientific / Environmental (Weather & Atmospheric Data)",
       "clientDescriptor": "US federal government agency",
       "technologiesUsed": [
         "AWS: SNS, S3, EventBridge, EC2",
@@ -170,7 +170,7 @@
       "slug": "2023-us-federal-government-agency",
       "year": 2023,
       "role": "Application Architect",
-      "industry": "Government / Federal Public Sector — Natural Resources / Land Management",
+      "industry": "Government / Federal Public Sector \u2014 Natural Resources / Land Management",
       "clientDescriptor": "US federal government agency",
       "technologiesUsed": [
         "Oracle Database (legacy)",
@@ -203,7 +203,7 @@
     {
       "slug": "2022-bank",
       "year": 2022,
-      "role": "Application Support Engineer (May 2022 - July 2022) → Application Developer (June 2022 - December 2023)",
+      "role": "Application Support Engineer (May 2022 - July 2022) \u2192 Application Developer (June 2022 - December 2023)",
       "industry": "Banking / Financial Services",
       "clientDescriptor": "Fortune 100 bank",
       "technologiesUsed": [

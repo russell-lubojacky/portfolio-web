@@ -4,7 +4,7 @@
     "year": 2025,
     "dates": "October, 2025 - Present",
     "role": "Application Architect",
-    "industry": "Government / Federal Public Sector — Scientific / Environmental (Weather & Atmospheric Data)",
+    "industry": "Government / Federal Public Sector \u2014 Scientific / Environmental (Weather & Atmospheric Data)",
     "clientDescriptor": "US federal government agency"
   },
   {
@@ -12,7 +12,7 @@
     "year": 2023,
     "dates": "May, 2023 - September, 2025",
     "role": "Application Architect",
-    "industry": "Government / Federal Public Sector — Natural Resources / Land Management",
+    "industry": "Government / Federal Public Sector \u2014 Natural Resources / Land Management",
     "clientDescriptor": "US federal government agency"
   },
   {
@@ -27,7 +27,7 @@
     "slug": "2022-bank",
     "year": 2022,
     "dates": "May, 2022 - December, 2023 (project ID 11539629, role transitioned partway through)",
-    "role": "Application Support Engineer (May 2022 - July 2022) → Application Developer (June 2022 - December 2023)",
+    "role": "Application Support Engineer (May 2022 - July 2022) \u2192 Application Developer (June 2022 - December 2023)",
     "industry": "Banking / Financial Services",
     "clientDescriptor": "Fortune 100 bank"
   },
@@ -324,7 +324,7 @@
     "year": 1999,
     "dates": "May, 1999 - December, 1999",
     "role": null,
-    "industry": "E-Commerce / Retail (inferred from client name and project description; not explicitly labeled in source document)",
+    "industry": "E-Commerce / Retail",
     "clientDescriptor": "Early-stage e-commerce startup"
   }
 ]

@@ -2,14 +2,14 @@
   {
     "slug": "ai-assisted-delivery",
     "title": "AI-Assisted Delivery (AI Coding Agents: GitHub Copilot, Claude Code)",
-    "summary": "An emerging, current-relevance accomplishment theme distinct from [[ai]] (which tracks the source resume's unevidenced \"AI/ML experimentation and deployment\" claim — building/deploying ML models). This theme is about using AI coding agents as a delivery accelerant, at increasing levels of sophistication and leadership scope across two consecutive, most-recent engagements: from an individually-driven frontend build (the US federal government agency, 2025) to a formalized, team-rolled-out framework spanning both analysis and multi-agent build phases (the US federal government agency, 2025-present). This is the newest and fastest-evolving skill area in the entire knowledge base — worth watching closely as the US federal government agency engagement continues.",
+    "summary": "An emerging, current-relevance accomplishment theme, distinct from general AI/ML model building. This theme is about using AI coding agents as a delivery accelerant, at increasing levels of sophistication and leadership scope across two consecutive, most-recent engagements: from an individually-driven frontend build (the US federal government agency, 2025) to a formalized, team-rolled-out framework spanning both analysis and multi-agent build phases (the US federal government agency, 2025-present). This is the newest and fastest-evolving skill area in the entire knowledge base \u2014 worth watching closely as the US federal government agency engagement continues.",
     "timeframe": "2025 - Present (ongoing)",
     "contributingProjectSlugs": [
       "2023-us-federal-government-agency",
       "2025-us-federal-government-agency"
     ],
     "technologiesInvolved": [],
-    "businessValue": "At the US federal government agency, enabled a full application build within a compressed 2-3 month window that would otherwise have required a larger team or longer timeline. At the US federal government agency, the impact is more structural: the Claude-Code-based analysis framework was the specific mechanism that made a ~10-application architecture assessment achievable within a hard 3-month deadline — without it, the timeline itself may not have been achievable — and the same AI-assisted approach, now via multi-agent workflows, is the delivery mechanism for the build phase. This represents a genuine shift in how Russell leads technical delivery: not just adopting AI tools personally, but building repeatable frameworks around them and leading teams through that adoption.",
+    "businessValue": "At the US federal government agency, enabled a full application build within a compressed 2-3 month window that would otherwise have required a larger team or longer timeline. At the US federal government agency, the impact is more structural: the Claude-Code-based analysis framework was the specific mechanism that made a ~10-application architecture assessment achievable within a hard 3-month deadline \u2014 without it, the timeline itself may not have been achievable \u2014 and the same AI-assisted approach, now via multi-agent workflows, is the delivery mechanism for the build phase. This represents a genuine shift in how Russell leads technical delivery: not just adopting AI tools personally, but building repeatable frameworks around them and leading teams through that adoption.",
     "resumeBulletPoints": [
       "Pioneering AI-assisted delivery leadership: established a Claude-Code-based legacy system analysis framework, rolled it out to a team, and used it to deliver a ~10-application federal architecture assessment within a compressed 3-month deadline",
       "Leading a team using Claude Code multi-agent workflows to build AWS-based, Terraform-provisioned modernized applications, replacing legacy on-prem federal weather data-processing systems",
@@ -19,7 +19,7 @@
   {
     "slug": "api-platforms",
     "title": "API Platform Leadership",
-    "summary": "Repeated, sustained ownership of REST API platform initiatives — not one-off API endpoints, but the architecture, leadership, and delivery of API-as-a-platform efforts across four distinct engagements and three clients. The clearest example is the Fortune 500 hospitality company re-engaging the same architect across three separate contracts (2013-2014, 2015-2016, 2017-2018) for its REST API platform initiative rather than rotating architects — see [[../clients/the Fortune 500 hospitality company]] and [[../leadership/technical-vision]].",
+    "summary": "Repeated, sustained ownership of REST API platform initiatives \u2014 not one-off API endpoints, but the architecture, leadership, and delivery of API-as-a-platform efforts across four distinct engagements and three clients. The clearest example is the Fortune 500 hospitality company re-engaging the same architect across three separate contracts (2013-2014, 2015-2016, 2017-2018) for its REST API platform initiative rather than rotating architects \u2014 see the Fortune 500 hospitality company's REST API platform initiative and the Technical Vision leadership theme.",
     "timeframe": "October 2013 - November 2020 (7 years)",
     "contributingProjectSlugs": [
       "2013-hospitality-company",
@@ -30,7 +30,7 @@
       "2020-internal-enterprise-platform"
     ],
     "technologiesInvolved": [],
-    "businessValue": "Enabled REST-over-SOAP modernization without a full rip-and-replace of underlying systems (the Fortune 500 hospitality company); defined the API contracts underpinning a large-scale customer-facing digital transformation (the Fortune 500 cruise line); the multi-contract the Fortune 500 hospitality company re-engagement pattern is itself a measurable signal of client-perceived value — a client does not repeatedly re-hire the same architect for the same platform unless the prior work delivered.",
+    "businessValue": "Enabled REST-over-SOAP modernization without a full rip-and-replace of underlying systems (the Fortune 500 hospitality company); defined the API contracts underpinning a large-scale customer-facing digital transformation (the Fortune 500 cruise line); the multi-contract the Fortune 500 hospitality company re-engagement pattern is itself a measurable signal of client-perceived value \u2014 a client does not repeatedly re-hire the same architect for the same platform unless the prior work delivered.",
     "resumeBulletPoints": [
       "Led REST API platform architecture and delivery across 4 engagements and 3 clients over 7 years, most notably the Fortune 500 hospitality company's multi-year platform initiative spanning three separate re-engagements (2015-2018)",
       "Defined cloud-native API architectures (AWS API Gateway + Lambda) underpinning a large-scale digital transformation for a hospitality client",
@@ -40,7 +40,7 @@
   {
     "slug": "cloud-modernization",
     "title": "Cloud Modernization",
-    "summary": "Moving legacy and net-new applications onto cloud-native architectures — spanning new-environment stand-up, serverless API design, multi-cloud (AWS/GCP) platform work, and formal \"Cloud Platform Architect\" ownership of public/private/hybrid cloud strategy. Concentrated 2016-2020, as cloud adoption became central to a run of Accenture engagements, then resumed in 2025 with the most architecturally senior cloud engagement to date — leading a legacy-on-prem-to-AWS modernization for a federal weather agency.",
+    "summary": "Moving legacy and net-new applications onto cloud-native architectures \u2014 spanning new-environment stand-up, serverless API design, multi-cloud (AWS/GCP) platform work, and formal \"Cloud Platform Architect\" ownership of public/private/hybrid cloud strategy. Concentrated 2016-2020, as cloud adoption became central to a run of Accenture engagements, then resumed in 2025 with the most architecturally senior cloud engagement to date \u2014 leading a legacy-on-prem-to-AWS modernization for a federal weather agency.",
     "timeframe": "August 2016 - November 2020 (4 years); October 2025 - Present (ongoing)",
     "contributingProjectSlugs": [
       "2016-cruise-line",
@@ -63,7 +63,7 @@
   {
     "slug": "enterprise-architecture",
     "title": "Enterprise Architecture Assessments & Target-State Strategy",
-    "summary": "A recurring engagement pattern across the career: brought in specifically to assess current-state architecture, define a target state, and quantify the gap/impact of getting there — for banking, pharmaceutical, government-sponsored enterprise, retail pharmacy, and technology clients. Distinct from hands-on delivery work: these engagements are about architecture strategy and decision-making, often producing artifacts (blueprints, assessments, gap analyses) that outlived the engagement itself.",
+    "summary": "A recurring engagement pattern across the career: brought in specifically to assess current-state architecture, define a target state, and quantify the gap/impact of getting there \u2014 for banking, pharmaceutical, government-sponsored enterprise, retail pharmacy, and technology clients. Distinct from hands-on delivery work: these engagements are about architecture strategy and decision-making, often producing artifacts (blueprints, assessments, gap analyses) that outlived the engagement itself.",
     "timeframe": "October 2011 - December 2022 (11 years)",
     "contributingProjectSlugs": [
       "2011-pharmaceutical-company",
@@ -74,7 +74,7 @@
       "2022-technology-company"
     ],
     "technologiesInvolved": [],
-    "businessValue": "Produced a client-architecture-review-board-approved integration blueprint that became the design baseline for a downstream team (Capital Group); delivered a target-state card processor recommendation with full downstream application impact analysis (the Global top-tier bank); defined vendor scoring criteria that shaped a platform procurement decision (the Government-sponsored mortgage finance enterprise).",
+    "businessValue": "Produced a client-architecture-review-board-approved integration blueprint that became the design baseline for a downstream team (the Global asset management firm); delivered a target-state card processor recommendation with full downstream application impact analysis (the Global top-tier bank); defined vendor scoring criteria that shaped a platform procurement decision (the Government-sponsored mortgage finance enterprise).",
     "resumeBulletPoints": [
       "Led enterprise architecture assessments and target-state technology strategy across 6 engagements spanning pharmaceuticals, financial services, government-sponsored enterprise, healthcare, and technology clients",
       "Delivered formally-approved integration blueprints and reference architectures that became binding design baselines for client transformation programs",
@@ -84,13 +84,13 @@
   {
     "slug": "gis",
     "title": "GIS (Geographic Information Systems)",
-    "summary": "The source resume's skills proficiency table lists three GIS-related skills — \"ArcGIS API,\" \"ESRI ArcGIS,\" and \"Python for ArcGIS\" (all 2-Intermediate) — but at the time that resume was generated (2022), no project in the \"PRIOR WORK EXPERIENCE\" section supported the rating. That gap is now closed: the US federal government agency engagement (May 2023 - September 2025) is a substantial, multi-year GIS project — migrating a legacy Oracle/ArcGIS Enterprise land-unit database to PostgreSQL/PostGIS, configuring and publishing ArcGIS map features, integrating ArcGIS with ServiceNow, and ultimately building a custom frontend GIS application.",
+    "summary": "A substantial, multi-year GIS project: the US federal government agency engagement (May 2023 - September 2025) \u2014 migrating a legacy Oracle/ArcGIS Enterprise land-unit database to PostgreSQL/PostGIS, configuring and publishing ArcGIS map features, integrating ArcGIS with ServiceNow, and ultimately building a custom frontend GIS application.",
     "timeframe": "May 2023 - September 2025 (2 years 4 months)",
     "contributingProjectSlugs": [
       "2023-us-federal-government-agency"
     ],
     "technologiesInvolved": [],
-    "businessValue": "Delivered a full migration of a live, production GIS system (the US federal government agency recreation site data) off a legacy Oracle/ArcGIS Enterprise stack onto a redesigned, more performant PostgreSQL/PostGIS architecture, without disrupting the underlying land-unit and recreation-site management capability the US federal government agency depends on. Also delivered a proof-of-concept custom frontend GIS application (recreation site inventory + survey ticketing) integrated with the new database and ArcGIS, built rapidly using AI coding agents — though the client ultimately did not proceed past the POC stage due to budget constraints.",
+    "businessValue": "Delivered a full migration of a live, production GIS system (the US federal government agency recreation site data) off a legacy Oracle/ArcGIS Enterprise stack onto a redesigned, more performant PostgreSQL/PostGIS architecture, without disrupting the underlying land-unit and recreation-site management capability the US federal government agency depends on. Also delivered a proof-of-concept custom frontend GIS application (recreation site inventory + survey ticketing) integrated with the new database and ArcGIS, built rapidly using AI coding agents \u2014 though the client ultimately did not proceed past the POC stage due to budget constraints.",
     "resumeBulletPoints": [
       "Led a multi-year (2023-2025) migration of a legacy Oracle/ArcGIS Enterprise land-unit database to PostgreSQL with PostGIS for the US federal government agency, redesigning the schema for performance",
       "Configured ArcGIS Enterprise and ArcGIS Server, publishing map features and integrating GIS data with both ServiceNow and a custom-built frontend application",
@@ -100,14 +100,14 @@
   {
     "slug": "technical-leadership",
     "title": "25+ Years of Technical Leadership Progression",
-    "summary": "A career-spanning accomplishment rather than a single project or client theme: progression from individual-contributor developer (1999, the Early-stage e-commerce startup) to Technical Architecture Manager (per the source resume's current title), with team leadership scope growing from 3-person build teams (2008) to a 20-person onshore/offshore team (2009-2010), and sustained multi-year technical ownership repeatedly re-entrusted by the same client (the Fortune 500 hospitality company, 2013-2018 — see [[../clients/the Fortune 500 hospitality company]]). This file is the top-level rollup; see [[../leadership/team-leadership]], [[../leadership/technical-vision]], [[../leadership/architecture-reviews]], and [[../leadership/stakeholder-management]] for the detailed evidence broken out by leadership mode.",
+    "summary": "A career-spanning accomplishment rather than a single project or client theme: progression from individual-contributor developer (1999, the Early-stage e-commerce startup) to Technical Architecture Manager, with team leadership scope growing from 3-person build teams (2008) to a 20-person onshore/offshore team (2009-2010), and sustained multi-year technical ownership repeatedly re-entrusted by the same client (the Fortune 500 hospitality company, 2013-2018).",
     "timeframe": "May 1999 - September 2023 (24+ years of documented engagements; the professional summary states 25+ years overall)",
     "contributingProjectSlugs": [],
     "technologiesInvolved": [],
-    "businessValue": "The clearest, most objective evidence of impact in the entire knowledge base: the Fortune 500 hospitality company re-engaged the same architect across three separate, non-consecutive contracts (2013-2014, 2015-2016, 2017-2018) for its REST API platform initiative. A client does not repeat that pattern based on marketing — it reflects delivered value. Combined with progression from 3-person to 20-person team leadership and a title progression to \"Technical Architecture Manager,\" the source material supports a genuine multi-decade leadership growth narrative.",
+    "businessValue": "The clearest, most objective evidence of impact in the entire knowledge base: the Fortune 500 hospitality company re-engaged the same architect across three separate, non-consecutive contracts (2013-2014, 2015-2016, 2017-2018) for its REST API platform initiative. A client does not repeat that pattern based on marketing \u2014 it reflects delivered value. Combined with progression from 3-person to 20-person team leadership and a title progression to \"Technical Architecture Manager,\" the source material supports a genuine multi-decade leadership growth narrative.",
     "resumeBulletPoints": [
       "25+ years progressing from individual-contributor developer to Technical Architecture Manager, leading teams from 3 to 20 people across banking, hospitality, media, pharmaceutical, retail, insurance, energy, and government clients",
-      "Repeatedly re-engaged by the same client (the Fortune 500 hospitality company) across three separate contracts over 5 years for sustained ownership of its REST API platform initiative — direct evidence of client-trusted, multi-year technical leadership",
+      "Repeatedly re-engaged by the same client (the Fortune 500 hospitality company) across three separate contracts over 5 years for sustained ownership of its REST API platform initiative \u2014 direct evidence of client-trusted, multi-year technical leadership",
       "Currently holds the title of Technical Architecture Manager (per most recent resume profile), reflecting career-long progression from hands-on development into enterprise-level architecture leadership"
     ]
   }
