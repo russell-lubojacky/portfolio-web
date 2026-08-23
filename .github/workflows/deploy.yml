@@ -67,11 +67,9 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           ssh -i ~/.ssh/deploy_key "$SSH_USER@$SSH_HOST" \
-            "cd $DEPLOY_PATH && NEXT_PUBLIC_SITE_URL='$NEXT_PUBLIC_SITE_URL' ANTHROPIC_API_KEY='$ANTHROPIC_API_KEY' docker compose up --build -d"
+            "cd $DEPLOY_PATH && HOST_BIND=127.0.0.1 HOST_PORT=3000 NEXT_PUBLIC_SITE_URL='$NEXT_PUBLIC_SITE_URL' ANTHROPIC_API_KEY='$ANTHROPIC_API_KEY' docker compose --profile prod up --build -d"
 
       - name: Smoke test
-        env:
-          SSH_HOST: ${{ secrets.LINODE_HOST }}
         run: |
           sleep 5
-          curl -fsS "http://$SSH_HOST" -o /dev/null && echo "Site responded OK"
+          curl -fsS "https://luboblog.com" -o /dev/null && echo "Site responded OK over HTTPS"

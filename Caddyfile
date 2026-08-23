@@ -1,0 +1,7 @@
+{
+	email russell.lubojacky@gmail.com
+}
+
+luboblog.com, www.luboblog.com {
+	reverse_proxy web:3000
+}
